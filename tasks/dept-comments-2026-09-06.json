@@ -12,6 +12,16 @@
   },
   "tasks": [
     {
+      "id": 12,
+      "type": "comment",
+      "status": "pending",
+      "topic": "полку выигрывают продажи, а теряют операции",
+      "query": "retail buyer shelf listing fill rate distribution pet",
+      "searchUrl": "https://www.linkedin.com/search/results/content/?keywords=retail%20buyer%20shelf%20listing%20fill%20rate%20distribution%20pet&datePosted=%22past-week%22&sortBy=%22date_posted%22",
+      "comment": "Getting on the shelf is a sales problem; staying on it is an operations problem, and those are solved by different people. Most brands celebrate the PO and lose the slot four months later on fill rate and case-pack math nobody modelled. The buyer doesn't remember your pitch, only the last time you shorted him. What kills more brands in your accounts, velocity or fulfilment?",
+      "max_post_age_days": 7
+    },
+    {
       "id": 11,
       "type": "comment",
       "status": "pending",
