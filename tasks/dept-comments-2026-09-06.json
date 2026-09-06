@@ -12,6 +12,16 @@
   },
   "tasks": [
     {
+      "id": 11,
+      "type": "comment",
+      "status": "pending",
+      "topic": "данные роста категории: деньги растут быстрее объёма",
+      "query": "pet food category growth value volume data",
+      "searchUrl": "https://www.linkedin.com/search/results/content/?keywords=pet%20food%20category%20growth%20value%20volume%20data&datePosted=%22past-week%22&sortBy=%22date_posted%22",
+      "comment": "The gap between those two bars is the whole story: value up far ahead of volume means most of that growth is price, not more food going into more bowls. That holds while incomes hold. It also means the category is one downturn away from a downtrade, and private label is already sitting on that shelf waiting. Are buyers planning for that, or still reading the value line as demand?",
+      "max_post_age_days": 7
+    },
+    {
       "id": 1,
       "type": "comment",
       "status": "pending",
