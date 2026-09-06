@@ -1,5 +1,5 @@
 {
-  "_note": "Комментарии под постами о трендах pet-ниши США. Тексты готовы — отправлять как есть, не сокращать и не сочинять. Каждый построен одинаково: наблюдение, механика за ним и открытый вопрос собеседнику — комментарий должен показывать понимание категории и звать на ответ, а не хвалить пост. Ничего не продаём и не упоминаем свои товары.",
+  "_note": "Комментарии отдела маркетинга. Тексты готовы — отправлять ДОСЛОВНО, не сокращать и не сочинять. Каждый построен одинаково: наблюдение, механика за ним и открытый вопрос собеседнику — комментарий должен показывать понимание категории и звать на ответ, а не хвалить пост. Ничего не продаём и не упоминаем свои товары. Пункты 13-17 — приоритет отдела: выставки США (SuperZoo, Global Pet Expo) и B2B-дистрибуция; они стоят первыми в списке, потому что подбор темы к посту идёт сверху вниз, и пост про выставку должен ловиться этими темами, а не общими.",
   "date": "2026-09-06",
   "author": "Дарья, отдел маркетинга",
   "_limits": {
@@ -11,6 +11,56 @@
     }
   },
   "tasks": [
+    {
+      "id": 13,
+      "type": "comment",
+      "status": "pending",
+      "topic": "выставки США: последний день — единственный честный",
+      "query": "superzoo show floor booth vegas",
+      "searchUrl": "https://www.linkedin.com/search/results/content/?keywords=superzoo%20show%20floor%20booth%20vegas&datePosted=%22past-week%22&sortBy=%22date_posted%22",
+      "comment": "Last day is the only honest day of a show: the pitch is done and people finally talk about what actually sold this year rather than what's launching. The number worth counting afterwards isn't badge scans, it's how many conversations ended with a reset date attached to them. Everything else turns into a follow-up email nobody answers in October. What share of your floor meetings this year came out with an actual date?",
+      "max_post_age_days": 7
+    },
+    {
+      "id": 14,
+      "type": "comment",
+      "status": "pending",
+      "topic": "Global Pet Expo: ассортимент решается до выставки",
+      "query": "global pet expo orlando new product showcase",
+      "searchUrl": "https://www.linkedin.com/search/results/content/?keywords=global%20pet%20expo%20orlando%20new%20product%20showcase&datePosted=%22past-week%22&sortBy=%22date_posted%22",
+      "comment": "Global looks like discovery, but most of next year's assortment is effectively decided before anyone walks the floor — the meetings mostly confirm work that started at line review. The brands that leave Orlando with placements are the ones who brought shelf math: units per store per week, case pack, what they'd replace. A new SKU on its own is a conversation, not a slot. Are buyers coming in with tighter briefs this year than last?",
+      "max_post_age_days": 7
+    },
+    {
+      "id": 15,
+      "type": "comment",
+      "status": "pending",
+      "topic": "после выставки: две недели решают всё",
+      "query": "trade show follow up leads samples buyers distributor",
+      "searchUrl": "https://www.linkedin.com/search/results/content/?keywords=trade%20show%20follow%20up%20leads%20samples%20buyers%20distributor&datePosted=%22past-week%22&sortBy=%22date_posted%22",
+      "comment": "The two weeks after a show decide what the show was worth. Scans go cold fast, and the brands that convert are rarely the ones with the best booth — they're the ones who had case pack, lead time and MAP answered before the buyer had to ask twice. Boring operational readiness beats a great story at that stage. How long do you keep a scan alive before writing it off?",
+      "max_post_age_days": 7
+    },
+    {
+      "id": 16,
+      "type": "comment",
+      "status": "pending",
+      "topic": "дистрибуция: каталог и скорость продаж — два разных решения",
+      "query": "pet distributor broker distribution partners retailers",
+      "searchUrl": "https://www.linkedin.com/search/results/content/?keywords=pet%20distributor%20broker%20distribution%20partners%20retailers&datePosted=%22past-week%22&sortBy=%22date_posted%22",
+      "comment": "Getting into a distributor's catalogue and getting velocity out of it are two separate decisions, and the second one lives with whoever actually walks the stores. When a line sells through in three regions and stalls in a fourth, it's field coverage far more often than the product. Brands usually reformulate when they should have been staffing. How do you tell those two apart in a brand's first year?",
+      "max_post_age_days": 7
+    },
+    {
+      "id": 17,
+      "type": "comment",
+      "status": "pending",
+      "topic": "ресеты: товары умирают на полке тихо",
+      "query": "category review planogram reset shelf space buyer pet",
+      "searchUrl": "https://www.linkedin.com/search/results/content/?keywords=category%20review%20planogram%20reset%20shelf%20space%20buyer%20pet&datePosted=%22past-week%22&sortBy=%22date_posted%22",
+      "comment": "Resets are where good products die quietly — not because the buyer disliked them, but because facings moved before the shopper did. The brands that survive one usually bring a single number to the meeting: sell-through per store per week, not national totals that hide the twenty doors doing the work. What's the number you most wish brands walked in with?",
+      "max_post_age_days": 7
+    },
     {
       "id": 12,
       "type": "comment",
