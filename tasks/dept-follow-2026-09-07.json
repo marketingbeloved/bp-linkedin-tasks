@@ -1,0 +1,151 @@
+{
+  "_note": "ЗАДАНИЕ НА ПОДПИСКИ (Follow). Едет к боту по сети из репозитория заданий.\n\nСТРАНИЦЫ — список ниже, по ссылкам. Это ритейл, дистрибуция, вет-канал, отрасль и данные по категории: те, чьи посты нам нужны в ленте и в чьих подписчиках нам полезно быть видимыми. Подписка на страницу не занимает недельную квоту приглашений.\n\nЛЮДИ — списком не задаются: их бот находит сам из поиска по нашим темам (файл dept-comments-*), с обязательными условиями — США, B2B-роль (байер, мерчандайзер, дистрибуция, категорийный менеджер, владелец, руководитель) и pet-ниша. Кандидаты без положительного признака ниши отбрасываются, причина пишется в отчёт. Конкурентов (Zesty Paws, Native Pet, Pet Honesty, Bark Botanica) не подписываем ни при каких условиях.\n\nПОРЯДОК: сначала страницы из этого файла, затем добор людьми до дневной нормы. Один адрес подписываем один раз (учёт в state/followed.json). Если кнопки Follow на странице нет или адрес не открылся — это уходит строкой в отчёт, а не молча.",
+  "date": "2026-09-07",
+  "author": "Дарья, отдел маркетинга",
+  "_limits": {
+    "perDay": 15
+  },
+  "meta": {
+    "limits": {
+      "follow_per_day": 15
+    }
+  },
+  "tasks": [
+    {
+      "id": 1,
+      "type": "follow",
+      "status": "pending",
+      "who": "Chewy",
+      "url": "https://www.linkedin.com/company/chewy/",
+      "why": "ритейл: крупнейший онлайн-канал категории"
+    },
+    {
+      "id": 2,
+      "type": "follow",
+      "status": "pending",
+      "who": "Petco",
+      "url": "https://www.linkedin.com/company/petco/",
+      "why": "ритейл"
+    },
+    {
+      "id": 3,
+      "type": "follow",
+      "status": "pending",
+      "who": "PetSmart",
+      "url": "https://www.linkedin.com/company/petsmart/",
+      "why": "ритейл"
+    },
+    {
+      "id": 4,
+      "type": "follow",
+      "status": "pending",
+      "who": "Target",
+      "url": "https://www.linkedin.com/company/target/",
+      "why": "ритейл: массовый канал"
+    },
+    {
+      "id": 5,
+      "type": "follow",
+      "status": "pending",
+      "who": "Walmart",
+      "url": "https://www.linkedin.com/company/walmart/",
+      "why": "ритейл: массовый канал"
+    },
+    {
+      "id": 6,
+      "type": "follow",
+      "status": "pending",
+      "who": "Costco Wholesale",
+      "url": "https://www.linkedin.com/company/costco/",
+      "why": "ритейл: клубный канал"
+    },
+    {
+      "id": 7,
+      "type": "follow",
+      "status": "pending",
+      "who": "Kroger",
+      "url": "https://www.linkedin.com/company/kroger/",
+      "why": "ритейл: продуктовый канал"
+    },
+    {
+      "id": 8,
+      "type": "follow",
+      "status": "pending",
+      "who": "Tractor Supply",
+      "url": "https://www.linkedin.com/company/tractor-supply-company/",
+      "why": "ритейл: farm & feed"
+    },
+    {
+      "id": 9,
+      "type": "follow",
+      "status": "pending",
+      "who": "Phillips Pet Food & Supplies",
+      "url": "https://www.linkedin.com/company/phillips-pet-food-supplies/",
+      "why": "дистрибуция"
+    },
+    {
+      "id": 10,
+      "type": "follow",
+      "status": "pending",
+      "who": "Animal Supply Company",
+      "url": "https://www.linkedin.com/company/animal-supply-company/",
+      "why": "дистрибуция"
+    },
+    {
+      "id": 11,
+      "type": "follow",
+      "status": "pending",
+      "who": "Pet Food Experts",
+      "url": "https://www.linkedin.com/company/pet-food-experts/",
+      "why": "дистрибуция"
+    },
+    {
+      "id": 12,
+      "type": "follow",
+      "status": "pending",
+      "who": "Central Garden & Pet",
+      "url": "https://www.linkedin.com/company/central-garden-&-pet/",
+      "why": "производство и дистрибуция"
+    },
+    {
+      "id": 13,
+      "type": "follow",
+      "status": "pending",
+      "who": "MWI Animal Health",
+      "url": "https://www.linkedin.com/company/mwi-animal-health/",
+      "why": "вет-канал"
+    },
+    {
+      "id": 14,
+      "type": "follow",
+      "status": "pending",
+      "who": "Covetrus",
+      "url": "https://www.linkedin.com/company/covetrus/",
+      "why": "вет-канал"
+    },
+    {
+      "id": 15,
+      "type": "follow",
+      "status": "pending",
+      "who": "Pet Food Institute",
+      "url": "https://www.linkedin.com/company/pet-food-institute/",
+      "why": "отрасль: регулирование и стандарты"
+    },
+    {
+      "id": 16,
+      "type": "follow",
+      "status": "pending",
+      "who": "Pet Business",
+      "url": "https://www.linkedin.com/company/pet-business-magazine/",
+      "why": "отраслевое медиа"
+    },
+    {
+      "id": 17,
+      "type": "follow",
+      "status": "pending",
+      "who": "NielsenIQ",
+      "url": "https://www.linkedin.com/company/nielseniq/",
+      "why": "данные по категории"
+    }
+  ]
+}
