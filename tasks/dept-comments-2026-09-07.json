@@ -1,0 +1,296 @@
+{
+  "_note": "ЗАДАНИЯ ОТДЕЛА МАРКЕТИНГА НА КОММЕНТАРИИ И ЛАЙКИ. Файл едет к боту по сети из репозитория marketingbeloved/bp-linkedin-tasks — мержить код для этого не нужно.\n\nКАК ЭТОТ ФАЙЛ РАБОТАЕТ (важно, порядок пунктов = приоритет):\n1) Поиск. Каждый прогон бот берёт ПЕРВЫЕ пункты списка, открывает их searchUrl и комментирует подходящие свежие посты. Сколько пунктов — столько, сколько разрешает perDay. Поэтому наверху стоит то, что отделу нужно каждый день: пункты 13-17 — американские выставки и B2B-дистрибуция.\n2) Посты партнёров. Под постами страниц из обхода watch-pages бот ищет совпадение по ВСЕМУ списку, не только по верхним пунктам. Поэтому пункты 1-12 и 18-28 работают как база текстов: пост про fill rate получит комментарий про fill rate, а не общий.\n3) Лайки. Тот же файл — источник тем для лайков (до 10 в день). Требования к посту там мягче: где комментарий пропускается, лайк уходит.\n\nПРАВИЛА ТЕКСТА: отправлять ДОСЛОВНО, не сокращать, не переписывать, не добавлять своего. Каждый текст построен одинаково: наблюдение — механика за ним — открытый вопрос собеседнику. Комментарий должен показывать понимание категории и звать на ответ, а НЕ хвалить пост. Ничего не продаём, свои товары и бренд не упоминаем, поздравлений нет.\n\nГРАНИЦЫ: только США (посты без признака США бот пропускает), пост не старше 7 дней, под одной страницей не больше одного комментария за прогон, конкурентов (Zesty Paws, Native Pet, Pet Honesty) не комментируем и не лайкаем, посты учащихся и вакансии пропускаем.",
+  "date": "2026-09-07",
+  "author": "Дарья, отдел маркетинга",
+  "_limits": {
+    "perDay": 5
+  },
+  "meta": {
+    "limits": {
+      "comment_per_day": 5,
+      "like_per_day": 10
+    }
+  },
+  "tasks": [
+    {
+      "id": 13,
+      "type": "comment",
+      "status": "pending",
+      "topic": "выставки США: последний день — единственный честный",
+      "query": "superzoo show floor booth vegas",
+      "searchUrl": "https://www.linkedin.com/search/results/content/?keywords=superzoo%20show%20floor%20booth%20vegas&datePosted=%22past-week%22&sortBy=%22date_posted%22",
+      "comment": "Last day is the only honest day of a show: the pitch is done and people finally talk about what actually sold this year rather than what's launching. The number worth counting afterwards isn't badge scans, it's how many conversations ended with a reset date attached to them. Everything else turns into a follow-up email nobody answers in October. What share of your floor meetings this year came out with an actual date?",
+      "max_post_age_days": 7
+    },
+    {
+      "id": 14,
+      "type": "comment",
+      "status": "pending",
+      "topic": "Global Pet Expo: ассортимент решается до выставки",
+      "query": "global pet expo orlando new product showcase",
+      "searchUrl": "https://www.linkedin.com/search/results/content/?keywords=global%20pet%20expo%20orlando%20new%20product%20showcase&datePosted=%22past-week%22&sortBy=%22date_posted%22",
+      "comment": "Global looks like discovery, but most of next year's assortment is effectively decided before anyone walks the floor — the meetings mostly confirm work that started at line review. The brands that leave Orlando with placements are the ones who brought shelf math: units per store per week, case pack, what they'd replace. A new SKU on its own is a conversation, not a slot. Are buyers coming in with tighter briefs this year than last?",
+      "max_post_age_days": 7
+    },
+    {
+      "id": 15,
+      "type": "comment",
+      "status": "pending",
+      "topic": "после выставки: две недели решают всё",
+      "query": "trade show follow up leads samples buyers distributor",
+      "searchUrl": "https://www.linkedin.com/search/results/content/?keywords=trade%20show%20follow%20up%20leads%20samples%20buyers%20distributor&datePosted=%22past-week%22&sortBy=%22date_posted%22",
+      "comment": "The two weeks after a show decide what the show was worth. Scans go cold fast, and the brands that convert are rarely the ones with the best booth — they're the ones who had case pack, lead time and MAP answered before the buyer had to ask twice. Boring operational readiness beats a great story at that stage. How long do you keep a scan alive before writing it off?",
+      "max_post_age_days": 7
+    },
+    {
+      "id": 16,
+      "type": "comment",
+      "status": "pending",
+      "topic": "дистрибуция: каталог и скорость продаж — два разных решения",
+      "query": "pet distributor broker distribution partners retailers",
+      "searchUrl": "https://www.linkedin.com/search/results/content/?keywords=pet%20distributor%20broker%20distribution%20partners%20retailers&datePosted=%22past-week%22&sortBy=%22date_posted%22",
+      "comment": "Getting into a distributor's catalogue and getting velocity out of it are two separate decisions, and the second one lives with whoever actually walks the stores. When a line sells through in three regions and stalls in a fourth, it's field coverage far more often than the product. Brands usually reformulate when they should have been staffing. How do you tell those two apart in a brand's first year?",
+      "max_post_age_days": 7
+    },
+    {
+      "id": 17,
+      "type": "comment",
+      "status": "pending",
+      "topic": "ресеты: товары умирают на полке тихо",
+      "query": "category review planogram reset shelf space buyer pet",
+      "searchUrl": "https://www.linkedin.com/search/results/content/?keywords=category%20review%20planogram%20reset%20shelf%20space%20buyer%20pet&datePosted=%22past-week%22&sortBy=%22date_posted%22",
+      "comment": "Resets are where good products die quietly — not because the buyer disliked them, but because facings moved before the shopper did. The brands that survive one usually bring a single number to the meeting: sell-through per store per week, not national totals that hide the twenty doors doing the work. What's the number you most wish brands walked in with?",
+      "max_post_age_days": 7
+    },
+    {
+      "id": 12,
+      "type": "comment",
+      "status": "pending",
+      "topic": "полку выигрывают продажи, а теряют операции",
+      "query": "retail buyer shelf listing fill rate distribution pet",
+      "searchUrl": "https://www.linkedin.com/search/results/content/?keywords=retail%20buyer%20shelf%20listing%20fill%20rate%20distribution%20pet&datePosted=%22past-week%22&sortBy=%22date_posted%22",
+      "comment": "Getting on the shelf is a sales problem; staying on it is an operations problem, and those are solved by different people. Most brands celebrate the PO and lose the slot four months later on fill rate and case-pack math nobody modelled. The buyer doesn't remember your pitch, only the last time you shorted him. What kills more brands in your accounts, velocity or fulfilment?",
+      "max_post_age_days": 7
+    },
+    {
+      "id": 11,
+      "type": "comment",
+      "status": "pending",
+      "topic": "данные роста категории: деньги растут быстрее объёма",
+      "query": "pet food category growth value volume data",
+      "searchUrl": "https://www.linkedin.com/search/results/content/?keywords=pet%20food%20category%20growth%20value%20volume%20data&datePosted=%22past-week%22&sortBy=%22date_posted%22",
+      "comment": "The gap between those two bars is the whole story: value up far ahead of volume means most of that growth is price, not more food going into more bowls. That holds while incomes hold. It also means the category is one downturn away from a downtrade, and private label is already sitting on that shelf waiting. Are buyers planning for that, or still reading the value line as demand?",
+      "max_post_age_days": 7
+    },
+    {
+      "id": 1,
+      "type": "comment",
+      "status": "pending",
+      "topic": "freeze-dried: полка растёт быстрее повторных заказов",
+      "query": "freeze dried pet food brand growth",
+      "searchUrl": "https://www.linkedin.com/search/results/content/?keywords=freeze%20dried%20pet%20food%20brand%20growth&datePosted=%22past-week%22&sortBy=%22date_posted%22",
+      "comment": "Freeze-dried is winning shelf space faster than it's winning reorders. The first bag sells on the ingredient panel; the second one sells on whether the animal actually finished it. Most brands scaling right now haven't hit that second purchase at volume yet. What does your reorder curve look like past month two?",
+      "max_post_age_days": 7
+    },
+    {
+      "id": 2,
+      "type": "comment",
+      "status": "pending",
+      "topic": "functional treats съедают полку добавок",
+      "query": "functional treats pet supplements category",
+      "searchUrl": "https://www.linkedin.com/search/results/content/?keywords=functional%20treats%20pet%20supplements%20category&datePosted=%22past-week%22&sortBy=%22date_posted%22",
+      "comment": "Functional treats are quietly eating the supplement aisle, and the reason is boring: a treat gets given daily, a supplement gets forgotten in a cupboard. Compliance beats formulation almost every time. Do you plan those as one category or two?",
+      "max_post_age_days": 7
+    },
+    {
+      "id": 3,
+      "type": "comment",
+      "status": "pending",
+      "topic": "подписки: отток из-за каденции, не из-за цены",
+      "query": "pet subscription churn retention repeat",
+      "searchUrl": "https://www.linkedin.com/search/results/content/?keywords=pet%20subscription%20churn%20retention%20repeat&datePosted=%22past-week%22&sortBy=%22date_posted%22",
+      "comment": "Most pet subscription churn isn't price, it's the second box landing before the first one is finished. Pack size and cadence move retention more than any discount ladder. Is that what your cancel reasons actually say, or is price still on top?",
+      "max_post_age_days": 7
+    },
+    {
+      "id": 4,
+      "type": "comment",
+      "status": "pending",
+      "topic": "тарифы бьют не по цене, а по граммам в упаковке",
+      "query": "pet industry tariffs sourcing cost packaging",
+      "searchUrl": "https://www.linkedin.com/search/results/content/?keywords=pet%20industry%20tariffs%20sourcing%20cost%20packaging&datePosted=%22past-week%22&sortBy=%22date_posted%22",
+      "comment": "The tariff conversation gets framed as a sourcing problem, but it lands as a pack-size problem: the first thing that gives is grams per unit, not the price on the label. Shoppers notice that faster than an increase. Are brands in your accounts shrinking the pack or taking the margin hit?",
+      "max_post_age_days": 7
+    },
+    {
+      "id": 5,
+      "type": "comment",
+      "status": "pending",
+      "topic": "вет-канал: доверие остаётся у рекомендации, не у бренда",
+      "query": "veterinary channel pet brand recommendation retail",
+      "searchUrl": "https://www.linkedin.com/search/results/content/?keywords=veterinary%20channel%20pet%20brand%20recommendation%20retail&datePosted=%22past-week%22&sortBy=%22date_posted%22",
+      "comment": "The vet channel converts better and scales worse, because the trust attaches to the recommendation rather than the brand. Brands that treat it as pure acquisition end up funding someone else's loyalty. Have you seen anyone carry that trust into retail intact?",
+      "max_post_age_days": 7
+    },
+    {
+      "id": 6,
+      "type": "comment",
+      "status": "pending",
+      "topic": "предел премиумизации — касса, а не опрос",
+      "query": "pet humanization premiumization price willingness",
+      "searchUrl": "https://www.linkedin.com/search/results/content/?keywords=pet%20humanization%20premiumization%20price%20willingness&datePosted=%22past-week%22&sortBy=%22date_posted%22",
+      "comment": "Humanization has a ceiling and it sits at checkout. People buy the premium story for themselves and the price for their wallet, and the gap shows up in repeat rather than first purchase. Where do you think that ceiling actually sits right now?",
+      "max_post_age_days": 7
+    },
+    {
+      "id": 7,
+      "type": "comment",
+      "status": "pending",
+      "topic": "экологичная упаковка: опросы против чеков",
+      "query": "sustainable pet packaging recyclable brand",
+      "searchUrl": "https://www.linkedin.com/search/results/content/?keywords=sustainable%20pet%20packaging%20recyclable%20brand&datePosted=%22past-week%22&sortBy=%22date_posted%22",
+      "comment": "Sustainable packaging polls far better than it sells. The people who say they'll pay more mostly do it once. Until the recyclable pack also keeps the last piece as fresh as the first, it stays a marketing line rather than a product feature. Has anyone cracked that on treats?",
+      "max_post_age_days": 7
+    },
+    {
+      "id": 8,
+      "type": "comment",
+      "status": "pending",
+      "topic": "независимая розница консолидируется и задаёт вопросы жёстче сетей",
+      "query": "independent pet retailer shelf turn rates",
+      "searchUrl": "https://www.linkedin.com/search/results/content/?keywords=independent%20pet%20retailer%20shelf%20turn%20rates&datePosted=%22past-week%22&sortBy=%22date_posted%22",
+      "comment": "Independent pet retail isn't shrinking, it's consolidating into fewer and sharper operators — and they ask harder questions than the chains. They want turn rates and reorder data, not a brand deck. Matches what you're seeing?",
+      "max_post_age_days": 7
+    },
+    {
+      "id": 9,
+      "type": "comment",
+      "status": "pending",
+      "topic": "полка всё ещё построена под собачьего покупателя",
+      "query": "cat category pet retail shelf allocation",
+      "searchUrl": "https://www.linkedin.com/search/results/content/?keywords=cat%20category%20pet%20retail%20shelf%20allocation&datePosted=%22past-week%22&sortBy=%22date_posted%22",
+      "comment": "Every retailer conversation still starts from the dog buyer as the default, and the cat set gets whatever space is left. The formats follow the same logic, which is why so many cat launches die on texture rather than on formula. How long before allocation catches up with the households?",
+      "max_post_age_days": 7
+    },
+    {
+      "id": 10,
+      "type": "comment",
+      "status": "pending",
+      "topic": "новинки умирают на второй покупке, а не на листинге",
+      "query": "pet brand product launch retail velocity",
+      "searchUrl": "https://www.linkedin.com/search/results/content/?keywords=pet%20brand%20product%20launch%20retail%20velocity&datePosted=%22past-week%22&sortBy=%22date_posted%22",
+      "comment": "Most launches don't fail at the listing, they fail between purchase one and two — and by then the buyer has already decided based on four weeks of velocity. That window is the whole game and almost nobody plans marketing around it. What's your read on how long a new item really gets?",
+      "max_post_age_days": 7
+    },
+    {
+      "id": 18,
+      "type": "comment",
+      "status": "pending",
+      "topic": "line review решается до встречи",
+      "query": "line review buyer meeting assortment decision retail",
+      "searchUrl": "https://www.linkedin.com/search/results/content/?keywords=line%20review%20buyer%20meeting%20assortment%20decision%20retail&datePosted=%22past-week%22&sortBy=%22date_posted%22",
+      "comment": "Line review is decided by the prep, not the meeting: by the time the deck opens the buyer already knows what has to come off the shelf to make room. The brands that get in name the SKU they're replacing and what it costs the retailer to keep it. Walking in with \"we're incremental\" and no math is what turns a yes into a maybe. What makes you say yes in the first ten minutes?",
+      "max_post_age_days": 7
+    },
+    {
+      "id": 19,
+      "type": "comment",
+      "status": "pending",
+      "topic": "fill rate дороже промо",
+      "query": "fill rate on time in full supplier scorecard chargeback",
+      "searchUrl": "https://www.linkedin.com/search/results/content/?keywords=fill%20rate%20on%20time%20in%20full%20supplier%20scorecard%20chargeback&datePosted=%22past-week%22&sortBy=%22date_posted%22",
+      "comment": "Nobody loses a listing over one soft quarter of sales as fast as over two bad quarters of fill rate. The scorecard is the relationship: a short shipment costs the retailer labour and leaves a hole on shelf, which is more expensive to them than your promo is valuable. Most brands don't model that until the chargebacks land. What's the fill rate number where the hard conversation starts?",
+      "max_post_age_days": 7
+    },
+    {
+      "id": 20,
+      "type": "comment",
+      "status": "pending",
+      "topic": "trade spend: подъём или сдвиг спроса",
+      "query": "trade promotion spend retail calendar baseline margin",
+      "searchUrl": "https://www.linkedin.com/search/results/content/?keywords=trade%20promotion%20spend%20retail%20calendar%20baseline%20margin&datePosted=%22past-week%22&sortBy=%22date_posted%22",
+      "comment": "Trade spend is where brand P&Ls quietly break. The promo gets planned around the retailer's calendar, then the lift gets modelled as incremental when a lot of it was pulled forward — and two quarters later the baseline sits lower than before the promo ran. How do you separate a real lift from a pull-forward when you review the year?",
+      "max_post_age_days": 7
+    },
+    {
+      "id": 21,
+      "type": "comment",
+      "status": "pending",
+      "topic": "private label забирает середину полки",
+      "query": "private label store brand category share pet retail",
+      "searchUrl": "https://www.linkedin.com/search/results/content/?keywords=private%20label%20store%20brand%20category%20share%20pet%20retail&datePosted=%22past-week%22&sortBy=%22date_posted%22",
+      "comment": "Private label rarely takes the top of a category; it takes the middle — the shopper who was buying a brand for reasons they couldn't name. Which means the defence isn't price, it's having a reason to exist that survives a side-by-side on shelf. Where do you see store brands genuinely winning in pet right now, and where do they stall?",
+      "max_post_age_days": 7
+    },
+    {
+      "id": 22,
+      "type": "comment",
+      "status": "pending",
+      "topic": "autoship: правда в третьем заказе",
+      "query": "autoship subscription repeat purchase rate ecommerce pet",
+      "searchUrl": "https://www.linkedin.com/search/results/content/?keywords=autoship%20subscription%20repeat%20purchase%20rate%20ecommerce%20pet&datePosted=%22past-week%22&sortBy=%22date_posted%22",
+      "comment": "Autoship flatters everyone's numbers until you look at orders two and three. The first order is a marketing problem; the third is a product and cadence problem — and both get reported as one retention line. The brands with real repeat usually fixed pack size and delivery interval before they touched ad spend. What's your cutoff for calling a repeat customer real?",
+      "max_post_age_days": 7
+    },
+    {
+      "id": 23,
+      "type": "comment",
+      "status": "pending",
+      "topic": "производственные мощности — скрытое ограничение роста",
+      "query": "contract manufacturer co manufacturing capacity production line",
+      "searchUrl": "https://www.linkedin.com/search/results/content/?keywords=contract%20manufacturer%20co%20manufacturing%20capacity%20production%20line&datePosted=%22past-week%22&sortBy=%22date_posted%22",
+      "comment": "Capacity is the constraint nobody puts in the growth plan: the brand wins a chain, then finds the co-man's line time is booked two quarters out and the first PO ships late. Missing a launch window costs far more than the pennies saved on unit cost. How far ahead do you lock line time before committing to a reset date?",
+      "max_post_age_days": 7
+    },
+    {
+      "id": 24,
+      "type": "comment",
+      "status": "pending",
+      "topic": "lead time — коммерческое число, не логистическое",
+      "query": "freight logistics warehouse 3PL lead time inbound retail",
+      "searchUrl": "https://www.linkedin.com/search/results/content/?keywords=freight%20logistics%20warehouse%203PL%20lead%20time%20inbound%20retail&datePosted=%22past-week%22&sortBy=%22date_posted%22",
+      "comment": "Lead time is a commercial number, not an ops one: it decides whether you can say yes to a reset, a promo or a replenishment window. Most brands quote their best case and then plan on it. The ones who hold shelf quote the worst case and look boring in the meeting. What lead time do you actually plan around, not the one on the spec sheet?",
+      "max_post_age_days": 7
+    },
+    {
+      "id": 25,
+      "type": "comment",
+      "status": "pending",
+      "topic": "брокер и свои люди — разные задачи",
+      "query": "sales broker rep group in house team retail accounts pet",
+      "searchUrl": "https://www.linkedin.com/search/results/content/?keywords=sales%20broker%20rep%20group%20in%20house%20team%20retail%20accounts%20pet&datePosted=%22past-week%22&sortBy=%22date_posted%22",
+      "comment": "A broker gets you the meeting; nobody but your own team gets you the second order. The split that tends to work is brokers for coverage and in-house for the handful of accounts that decide your year. Brands that outsource their top five usually find out too late that nobody was accountable for them. Where do you draw that line?",
+      "max_post_age_days": 7
+    },
+    {
+      "id": 26,
+      "type": "comment",
+      "status": "pending",
+      "topic": "календарь ресетов — настоящий дедлайн категории",
+      "query": "spring reset fall reset shelf schedule retailer planogram",
+      "searchUrl": "https://www.linkedin.com/search/results/content/?keywords=spring%20reset%20fall%20reset%20shelf%20schedule%20retailer%20planogram&datePosted=%22past-week%22&sortBy=%22date_posted%22",
+      "comment": "Reset calendars are the real deadline in this category: artwork, co-man line time, first production run — all of it is a countdown to somebody else's date. Miss it by two weeks and you wait six months, whatever the sell-through says. How much lead time do you need before a reset to be safe rather than lucky?",
+      "max_post_age_days": 7
+    },
+    {
+      "id": 27,
+      "type": "comment",
+      "status": "pending",
+      "topic": "Petfood Forum: там видно себестоимость категории",
+      "query": "petfood forum manufacturing ingredients sourcing conference",
+      "searchUrl": "https://www.linkedin.com/search/results/content/?keywords=petfood%20forum%20manufacturing%20ingredients%20sourcing%20conference&datePosted=%22past-week%22&sortBy=%22date_posted%22",
+      "comment": "Manufacturing shows are where the cost side of the category gets honest — ingredient pricing, line speed, what a formula really costs to run at volume. Most of what lands on shelf in eighteen months is visible there first, usually in whatever nobody can source. What was the thing this year that changed how you plan formulas?",
+      "max_post_age_days": 7
+    },
+    {
+      "id": 28,
+      "type": "comment",
+      "status": "pending",
+      "topic": "конфликт каналов — про то, кто объясняет цену",
+      "query": "MAP policy pricing channel conflict amazon retail pet",
+      "searchUrl": "https://www.linkedin.com/search/results/content/?keywords=MAP%20policy%20pricing%20channel%20conflict%20amazon%20retail%20pet&datePosted=%22past-week%22&sortBy=%22date_posted%22",
+      "comment": "Channel conflict is rarely about price, it's about who has to explain the price. A retailer doesn't mind you selling on Amazon; it minds a shopper standing in its aisle with a cheaper screen in hand. Brands that hold both usually differentiate pack size first and enforce MAP second, in that order. How much of your pricing work is policy versus pack architecture?",
+      "max_post_age_days": 7
+    }
+  ]
+}
