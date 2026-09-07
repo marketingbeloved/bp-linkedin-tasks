@@ -1,0 +1,74 @@
+{
+  "_note": "Страницы партнёров и байеров: их посты обходит watch-pages, на них же бот подписывается (follow --pages). Список правит отдел — это данные, а не код. Бот читает СНАЧАЛА эту копию из репозитория заданий (state/control/partner-pages.json), потом копию в репозитории кода: значит добавить страницу можно без мержа. slug берётся из адреса: linkedin.com/company/<slug>/",
+  "updated": "2026-09-07",
+  "pages": [
+    {
+      "slug": "chewy",
+      "name": "Chewy"
+    },
+    {
+      "slug": "petco",
+      "name": "Petco"
+    },
+    {
+      "slug": "target",
+      "name": "Target"
+    },
+    {
+      "slug": "petsmart",
+      "name": "PetSmart"
+    },
+    {
+      "slug": "tractor-supply-company",
+      "name": "Tractor Supply"
+    },
+    {
+      "slug": "phillips-pet-food-supplies",
+      "name": "Phillips Pet Food & Supplies"
+    },
+    {
+      "slug": "central-garden-&-pet",
+      "name": "Central Garden & Pet"
+    },
+    {
+      "slug": "animal-supply-company",
+      "name": "Animal Supply Company"
+    },
+    {
+      "slug": "pet-food-experts",
+      "name": "Pet Food Experts"
+    },
+    {
+      "slug": "mwi-animal-health",
+      "name": "MWI Animal Health"
+    },
+    {
+      "slug": "covetrus",
+      "name": "Covetrus"
+    },
+    {
+      "slug": "walmart",
+      "name": "Walmart"
+    },
+    {
+      "slug": "costco",
+      "name": "Costco Wholesale"
+    },
+    {
+      "slug": "kroger",
+      "name": "Kroger"
+    },
+    {
+      "slug": "pet-food-institute",
+      "name": "Pet Food Institute"
+    },
+    {
+      "slug": "pet-business-magazine",
+      "name": "Pet Business"
+    },
+    {
+      "slug": "nielseniq",
+      "name": "NielsenIQ"
+    }
+  ]
+}
