@@ -1,14 +1,24 @@
 {
-  "_note": "⛔ ПОСТЫ ОТОЗВАНЫ 2026-09-08. Причина: в текстах были выдуманные факты от лица Сергея — «три года назад я знал каждый аккаунт», «20 дверей из 100 делают объём», «мы два года субсидировали остальные», «мы считаем fill rate маркетинговой метрикой». Ни одно из этих утверждений не подтверждено: сколько у бренда дверей, что резали и как менялся P&L — неизвестно.\n\nПРАВИЛО НА БУДУЩЕЕ: в постах от лица Сергея не должно быть ни одного утверждения о нашей истории, наших числах и наших решениях, которое не подтверждено фактами от отдела. Наблюдение об отрасли — можно. Выдуманная биография — нельзя: в B2B это проверяется одним вопросом в комментариях, и цена ошибки — репутация владельца бренда, а не текст.\n\nФайл оставлен пустым намеренно: он свежий, поэтому перекрывает все прежние задания на посты — бот не опубликует ничего.",
+  "_note": "ПОСТ ОДОБРЕН ДАРЬЕЙ 2026-09-08 («давай пости») — публиковать в ближайшем прогоне.\n\nОт лица профиля Сергея (as: profile), не от страницы: по данным за 2026 личные профили собирают на 237% больше комментариев. Текст отправлять ДОСЛОВНО, ничего не сокращать и не добавлять. Цифр в тексте нет намеренно — решение отдела.\n\nВсе факты в посте — реальные: подписки со статусом Active месяцами не создавали заказов, потому что платёжные контракты висели в очереди проверки как high risk. Ничего выдуманного про историю бренда в тексте нет — это правило после разбора 2026-09-08, когда предыдущие черновики были отозваны именно за выдуманные факты.\n\nОбложка: assets/cover-active-not-billed.png, 1200x627.\n\nВАЖНО ПОСЛЕ ПУБЛИКАЦИИ: первые 30 минут решают охват — авторы, отвечающие на комментарии в это окно, получают на 64% больше комментариев. Отвечать на комментарии бот НЕ умеет, это делает человек.",
   "date": "2026-09-08",
   "author": "Дарья, отдел маркетинга",
   "_limits": {
-    "perDay": 0
+    "perDay": 1
   },
   "meta": {
     "limits": {
-      "post_per_day": 0
+      "post_per_day": 1
     }
   },
-  "tasks": []
+  "tasks": [
+    {
+      "id": 1,
+      "type": "post",
+      "status": "pending",
+      "as": "profile",
+      "topic": "подписки: зелёный статус Active не значит, что платят",
+      "text": "Our subscription dashboard was green for months. Active, active, active. Then we cross-checked it against actual charges and found subscribers who had never been billed at all.\n\nNothing was broken in the app. The payment contracts were sitting in a review queue as high risk, so no orders were ever created - and the dashboard kept reporting them as active, because from its point of view they were. Green status, zero revenue, no error anywhere.\n\nWhat we changed: we stopped reporting \"active subscribers\" entirely. The only number that goes in the deck now is subscribers charged in the last 30 days. It's a smaller, uglier number, and it's the only one that pays for inventory.\n\nIf you sell subscriptions, this takes two minutes: export your active list, export last month's charges, and compare the counts. I'd genuinely like to know if we were the only ones.\n\nHow many of your \"active\" subscribers were actually billed last month?",
+      "imageUrl": "https://raw.githubusercontent.com/marketingbeloved/bp-linkedin-tasks/main/assets/cover-active-not-billed.png"
+    }
+  ]
 }
