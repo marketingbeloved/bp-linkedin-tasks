@@ -1,5 +1,5 @@
 {
-  "_note": "ПОСТЫ ОТ ИМЕНИ СЕРГЕЯ. ⛔ НЕ ПУБЛИКОВАТЬ: у обоих пунктов status = hold, бот их видит, но пропускает — это прямое условие Дарьи «ничего не выкладывать без моего одобрения». Чтобы разрешить публикацию, статус меняется на pending (это делает отдел маркетинга правкой этого файла).\n\nТексты писать не нужно — они готовы и отправляются ДОСЛОВНО. Оба от лица профиля Сергея (as: profile), не от страницы: это личная позиция владельца бренда, в такой подаче B2B-аудитория читает лучше. Ничего не продаём, товары не упоминаем, запрещённых заявлений нет (проверено: Made in USA, vet-developed, лечит, plant-based о бренде, lab tested о линейке — ни одного).\n\nКаждый пост построен одинаково: конкретная сцена, механика за ней, вывод и открытый вопрос отрасли. Темы взяты из того же поля, где бот комментирует (ресеты полки, fill rate и операции), чтобы профиль читался цельно, а не набором случайных мыслей.\n\nКартинку добавляет отдел: поле imageUrl, прямая https-ссылка на jpg/png/webp. Без картинки пост тоже выйдет, но правило отдела — визуал внутрь поста.",
+  "_note": "ПОСТЫ ОТ ИМЕНИ СЕРГЕЯ. ⛔ НЕ ПУБЛИКОВАТЬ: у обоих пунктов status = hold, бот их видит, но пропускает — это прямое условие Дарьи «ничего не выкладывать без моего одобрения». Чтобы разрешить публикацию, статус меняется на pending (это делает отдел маркетинга правкой этого файла).\n\nТексты писать не нужно — они готовы и отправляются ДОСЛОВНО. Оба от лица профиля Сергея (as: profile), не от страницы: это личная позиция владельца бренда, в такой подаче B2B-аудитория читает лучше. Ничего не продаём, товары не упоминаем, запрещённых заявлений нет (проверено: Made in USA, vet-developed, лечит, plant-based о бренде, lab tested о линейке — ни одного).\n\nКаждый пост построен одинаково: конкретная сцена, механика за ней, вывод и открытый вопрос отрасли. Темы взяты из того же поля, где бот комментирует (ресеты полки, fill rate и операции), чтобы профиль читался цельно, а не набором случайных мыслей.\n\nКартинку добавляет отдел: поле imageUrl, прямая https-ссылка на jpg/png/webp. Без картинки пост тоже выйдет, но правило отдела — визуал внутрь поста.\n\n2026-09-08: добавлен пункт 3 — фаундерский инсайт с обложкой (assets/cover-20-doors.png). Он первый в очереди: выходит раньше двух остальных. Всё так же на удержании.",
   "date": "2026-09-08",
   "author": "Дарья, отдел маркетинга",
   "_limits": {
@@ -11,6 +11,16 @@
     }
   },
   "tasks": [
+    {
+      "id": 3,
+      "type": "post",
+      "status": "hold",
+      "as": "profile",
+      "topic": "фаундерский инсайт: 20 дверей из 100 делают объём",
+      "text": "Three years ago I could name every one of our retail accounts. Now I can name the two that decide our year.\n\nHere's the uncomfortable math nobody puts in a deck: in pet, roughly 20 doors out of every 100 do most of the volume. The other 80 mostly cost you samples, freight and attention. We spent two years treating all 100 as equal, because a bigger door count looked like growth in every update we sent out.\n\nWhat changed our P&L wasn't a new SKU. It was cutting the accounts we were quietly subsidising and putting that money into coverage for the ones that actually reorder.\n\nIf I were starting today, the only number I'd put on the wall is sell-through per store per week. Not revenue, not door count. It's the number that tells you whether you have a business or a distribution hobby.\n\nFounders - what's the number you wish you'd tracked from day one?",
+      "imageUrl": "https://raw.githubusercontent.com/marketingbeloved/bp-linkedin-tasks/main/assets/cover-20-doors.png",
+      "_approve": "сменить status на pending, когда Дарья скажет «идёт» — обложка уже приложена"
+    },
     {
       "id": 1,
       "type": "post",
