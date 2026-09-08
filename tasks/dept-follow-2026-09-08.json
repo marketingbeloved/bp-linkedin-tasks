@@ -1,0 +1,231 @@
+{
+  "_note": "ЗАДАНИЕ НА ПОДПИСКИ на 2026-09-08. Норма 20 в день — это безопасный потолок LinkedIn для follow (массовые follow/unfollow ловятся быстрее, чем приглашения); всего в подписках у аккаунта не больше 30 000.\n\nСТРАНИЦЫ ниже: ритейл и сети, дистрибуция, брокеры, вет-канал, отрасль и данные — то есть весь B2B-контур категории в США. У пунктов с address_checked=false адрес не подтверждён (LinkedIn при проверке отвечал ограничением, а не «страницы нет»): бот откроет и честно напишет в отчёте, если страницы не существует.\n\nЛЮДИ добираются автоматически до дневной нормы из поиска по нашим темам (dept-comments-*), с обязательными условиями: США, B2B-роль — байер, категорийный менеджер, мерчандайзер, дистрибуция, брокер, владелец магазина, руководитель — и pet-ниша. Кандидаты без положительного признака ниши отбрасываются с причиной в отчёте. Конкурентов (Zesty Paws, Native Pet, Pet Honesty, Bark Botanica) не подписываем никогда.\n\nОдин адрес — одна подписка навсегда (учёт в state/followed.json). Порядок: сначала страницы из этого файла, потом люди.",
+  "date": "2026-09-08",
+  "author": "Дарья, отдел маркетинга",
+  "_limits": {
+    "perDay": 20
+  },
+  "meta": {
+    "limits": {
+      "follow_per_day": 20
+    }
+  },
+  "tasks": [
+    {
+      "id": 1,
+      "type": "follow",
+      "status": "pending",
+      "who": "Chewy",
+      "url": "https://www.linkedin.com/company/chewy/",
+      "why": "ритейл",
+      "address_checked": true
+    },
+    {
+      "id": 2,
+      "type": "follow",
+      "status": "pending",
+      "who": "Petco",
+      "url": "https://www.linkedin.com/company/petco/",
+      "why": "ритейл",
+      "address_checked": true
+    },
+    {
+      "id": 3,
+      "type": "follow",
+      "status": "pending",
+      "who": "PetSmart",
+      "url": "https://www.linkedin.com/company/petsmart/",
+      "why": "ритейл",
+      "address_checked": true
+    },
+    {
+      "id": 4,
+      "type": "follow",
+      "status": "pending",
+      "who": "Target",
+      "url": "https://www.linkedin.com/company/target/",
+      "why": "ритейл",
+      "address_checked": true
+    },
+    {
+      "id": 5,
+      "type": "follow",
+      "status": "pending",
+      "who": "Walmart",
+      "url": "https://www.linkedin.com/company/walmart/",
+      "why": "ритейл",
+      "address_checked": true
+    },
+    {
+      "id": 6,
+      "type": "follow",
+      "status": "pending",
+      "who": "Costco Wholesale",
+      "url": "https://www.linkedin.com/company/costco/",
+      "why": "ритейл",
+      "address_checked": true
+    },
+    {
+      "id": 7,
+      "type": "follow",
+      "status": "pending",
+      "who": "Kroger",
+      "url": "https://www.linkedin.com/company/kroger/",
+      "why": "ритейл",
+      "address_checked": true
+    },
+    {
+      "id": 8,
+      "type": "follow",
+      "status": "pending",
+      "who": "Tractor Supply",
+      "url": "https://www.linkedin.com/company/tractor-supply-company/",
+      "why": "ритейл: farm & feed",
+      "address_checked": true
+    },
+    {
+      "id": 9,
+      "type": "follow",
+      "status": "pending",
+      "who": "Petland",
+      "url": "https://www.linkedin.com/company/petland-inc/",
+      "why": "сеть зоомагазинов",
+      "address_checked": true
+    },
+    {
+      "id": 10,
+      "type": "follow",
+      "status": "pending",
+      "who": "Phillips Pet Food & Supplies",
+      "url": "https://www.linkedin.com/company/phillips-pet-food-supplies/",
+      "why": "дистрибуция",
+      "address_checked": true
+    },
+    {
+      "id": 11,
+      "type": "follow",
+      "status": "pending",
+      "who": "Animal Supply Company",
+      "url": "https://www.linkedin.com/company/animal-supply-company/",
+      "why": "дистрибуция",
+      "address_checked": true
+    },
+    {
+      "id": 12,
+      "type": "follow",
+      "status": "pending",
+      "who": "Pet Food Experts",
+      "url": "https://www.linkedin.com/company/pet-food-experts/",
+      "why": "дистрибуция",
+      "address_checked": true
+    },
+    {
+      "id": 13,
+      "type": "follow",
+      "status": "pending",
+      "who": "Central Garden & Pet",
+      "url": "https://www.linkedin.com/company/central-garden-%26-pet/",
+      "why": "производство и дистрибуция",
+      "address_checked": true
+    },
+    {
+      "id": 14,
+      "type": "follow",
+      "status": "pending",
+      "who": "UNFI",
+      "url": "https://www.linkedin.com/company/unfi/",
+      "why": "дистрибуция natural/grocery",
+      "address_checked": true
+    },
+    {
+      "id": 15,
+      "type": "follow",
+      "status": "pending",
+      "who": "CROSSMARK",
+      "url": "https://www.linkedin.com/company/crossmark/",
+      "why": "брокер / retail execution",
+      "address_checked": true
+    },
+    {
+      "id": 16,
+      "type": "follow",
+      "status": "pending",
+      "who": "MWI Animal Health",
+      "url": "https://www.linkedin.com/company/mwi-animal-health/",
+      "why": "вет-канал",
+      "address_checked": true
+    },
+    {
+      "id": 17,
+      "type": "follow",
+      "status": "pending",
+      "who": "Covetrus",
+      "url": "https://www.linkedin.com/company/covetrus/",
+      "why": "вет-канал",
+      "address_checked": true
+    },
+    {
+      "id": 18,
+      "type": "follow",
+      "status": "pending",
+      "who": "Pet Food Institute",
+      "url": "https://www.linkedin.com/company/pet-food-institute/",
+      "why": "отрасль",
+      "address_checked": true
+    },
+    {
+      "id": 19,
+      "type": "follow",
+      "status": "pending",
+      "who": "Pet Business",
+      "url": "https://www.linkedin.com/company/pet-business-magazine/",
+      "why": "медиа",
+      "address_checked": true
+    },
+    {
+      "id": 20,
+      "type": "follow",
+      "status": "pending",
+      "who": "NielsenIQ",
+      "url": "https://www.linkedin.com/company/nielseniq/",
+      "why": "данные категории",
+      "address_checked": true
+    },
+    {
+      "id": 21,
+      "type": "follow",
+      "status": "pending",
+      "who": "Pet Supplies Plus",
+      "url": "https://www.linkedin.com/company/pet-supplies-plus/",
+      "why": "сеть зоомагазинов",
+      "address_checked": false
+    },
+    {
+      "id": 22,
+      "type": "follow",
+      "status": "pending",
+      "who": "KeHE Distributors",
+      "url": "https://www.linkedin.com/company/kehe-distributors/",
+      "why": "дистрибуция",
+      "address_checked": false
+    },
+    {
+      "id": 23,
+      "type": "follow",
+      "status": "pending",
+      "who": "Acosta",
+      "url": "https://www.linkedin.com/company/acosta/",
+      "why": "брокер",
+      "address_checked": false
+    },
+    {
+      "id": 24,
+      "type": "follow",
+      "status": "pending",
+      "who": "Pet Food Processing",
+      "url": "https://www.linkedin.com/company/pet-food-processing/",
+      "why": "медиа: производство",
+      "address_checked": false
+    }
+  ]
+}
