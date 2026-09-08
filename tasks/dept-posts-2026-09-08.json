@@ -1,0 +1,36 @@
+{
+  "_note": "ПОСТЫ ОТ ИМЕНИ СЕРГЕЯ. ⛔ НЕ ПУБЛИКОВАТЬ: у обоих пунктов status = hold, бот их видит, но пропускает — это прямое условие Дарьи «ничего не выкладывать без моего одобрения». Чтобы разрешить публикацию, статус меняется на pending (это делает отдел маркетинга правкой этого файла).\n\nТексты писать не нужно — они готовы и отправляются ДОСЛОВНО. Оба от лица профиля Сергея (as: profile), не от страницы: это личная позиция владельца бренда, в такой подаче B2B-аудитория читает лучше. Ничего не продаём, товары не упоминаем, запрещённых заявлений нет (проверено: Made in USA, vet-developed, лечит, plant-based о бренде, lab tested о линейке — ни одного).\n\nКаждый пост построен одинаково: конкретная сцена, механика за ней, вывод и открытый вопрос отрасли. Темы взяты из того же поля, где бот комментирует (ресеты полки, fill rate и операции), чтобы профиль читался цельно, а не набором случайных мыслей.\n\nКартинку добавляет отдел: поле imageUrl, прямая https-ссылка на jpg/png/webp. Без картинки пост тоже выйдет, но правило отдела — визуал внутрь поста.",
+  "date": "2026-09-08",
+  "author": "Дарья, отдел маркетинга",
+  "_limits": {
+    "perDay": 1
+  },
+  "meta": {
+    "limits": {
+      "post_per_day": 1
+    }
+  },
+  "tasks": [
+    {
+      "id": 1,
+      "type": "post",
+      "status": "hold",
+      "as": "profile",
+      "topic": "ресеты полки: настоящий дедлайн категории — чужая дата",
+      "text": "A store reset starts at 5am. Two people, a planogram printout, and a cart of product that has to go somewhere.\n\nI've watched brands lose their slot in that hour without anyone deciding anything against them. The facings moved because a new item needed room, and the brand that couldn't ship in time for the window simply wasn't there to defend itself.\n\nThe reset calendar is the real deadline in this category. Not the launch date, not the trade show, not the PO. Everything upstream - artwork approval, co-man line time, first production run - is a countdown to somebody else's date, and missing it by two weeks costs you six months.\n\nWhat I've learned the hard way: work backwards from the reset, not forwards from your roadmap. If the window is March, the answer to \"when do we lock artwork\" is not \"February\".\n\nHow far out do you lock your dates before a reset?",
+      "imageUrl": null,
+      "_approve": "сменить status на pending, когда Дарья одобрит текст и даст картинку"
+    },
+    {
+      "id": 2,
+      "type": "post",
+      "status": "hold",
+      "as": "profile",
+      "topic": "fill rate — маркетинговое число, а не операционное",
+      "text": "The most expensive mistake a small brand makes isn't a bad ad. It's a short shipment.\n\nA hole on the shelf costs the retailer labour to fix, a lost sale, and a data point that says your item doesn't move. You get charged for the first part and blamed for the third. Your sell-through report looks soft, and nobody writes down why.\n\nSo we treat fill rate as a marketing number, not an ops number. It decides whether the buyer defends you at the next review - and buyers defend the brands that never make them explain a gap.\n\nSales gets you onto the shelf. Operations keeps you there. Different people, different skills, and most brands staff only the first one.\n\nWhat's the fill rate where you start having the hard conversation - 95%? 90%?",
+      "imageUrl": null,
+      "run_after": "2026-09-10",
+      "_approve": "сменить status на pending; выпускать через 2-3 дня после первого, не встык"
+    }
+  ]
+}
