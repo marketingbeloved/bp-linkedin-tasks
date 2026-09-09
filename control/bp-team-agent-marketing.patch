@@ -1,0 +1,119 @@
+From ffbae670cdb8926a0de1ff08cea4211eb741a2db Mon Sep 17 00:00:00 2001
+From: macbook <macbook@macbooks-MacBook-Pro.local>
+Date: Wed, 9 Sep 2026 09:44:02 +0200
+Subject: [PATCH] =?UTF-8?q?=D0=9F=D1=80=D0=B0=D0=B2=D0=BA=D0=B8=20=D0=BE?=
+ =?UTF-8?q?=D1=82=D0=B4=D0=B5=D0=BB=D0=B0=20=D0=BC=D0=B0=D1=80=D0=BA=D0=B5?=
+ =?UTF-8?q?=D1=82=D0=B8=D0=BD=D0=B3=D0=B0:=20=D0=BE=D1=82=D0=B4=D0=B5?=
+ =?UTF-8?q?=D0=BB=D1=8C=D0=BD=D1=8B=D0=B5=20=D0=BA=D0=BE=D0=BC=D0=B0=D0=BD?=
+ =?UTF-8?q?=D0=B4=D1=8B=20=D0=B4=D0=BB=D1=8F=20=D0=BF=D0=BE=D1=81=D1=82?=
+ =?UTF-8?q?=D0=BE=D0=B2,=20=D0=BF=D0=BE=D0=B4=D0=BF=D0=B8=D1=81=D0=BE?=
+ =?UTF-8?q?=D0=BA=20=D0=B8=20=D0=BE=D1=82=D1=87=D1=91=D1=82=D0=B0?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+1. src/bot.js — выключатель подтверждения не работал. Проверка straight стояла
+   через \\b, а \\b в JavaScript это граница [A-Za-z0-9_] и остального, поэтому
+   с русскими словами не срабатывает никогда: /\\bсразу\\b/i.test('приглашения
+   сразу') === false. Отдел получал «Отправляем? да» на каждую команду и
+   отвечал через 15 минут, когда бот уже потерял нить. Убрано \\b.
+
+2. src/ops-linkedin.js — новые операции, скрипты уже есть в linkedin-agent:
+   post   → post.ts   («выложи пост», «опубликуй»)
+   follow → follow.ts («подпишись», «подписки»)
+   stats  → stats.ts  («сколько сделал», «отчёт», «лимиты») — read-операция
+   На «выложи пост» бот отвечал «не входит в список моих операций», а на
+   «сколько сделал» ответить было нечем.
+
+3. src/ops-linkedin.js — у like снято обязательное only. Бот спрашивал «какой
+   номер задания взять из файла репостов?», и лайки не ставились вообще.
+   like.ts теперь по умолчанию берёт свежие посты партнёрских страниц и добор
+   по темам отдела.
+
+4. src/ops-linkedin.js — таймаут runScript 15 → 40 минут. Двадцать приглашений
+   с паузами 1-3 минуты в четверть часа не влезают: задача убивалась на 13-м,
+   и отдел видел «не уложился — остановил», хотя приглашения уходили.
+
+Проверено: 334 существующих теста проходят.
+
+Co-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>
+---
+ src/bot.js          |  6 +++++-
+ src/ops-linkedin.js | 31 +++++++++++++++++++++++++++----
+ 2 files changed, 32 insertions(+), 5 deletions(-)
+
+diff --git a/src/bot.js b/src/bot.js
+index 97e1734..94fc93e 100644
+--- a/src/bot.js
++++ b/src/bot.js
+@@ -673,7 +673,11 @@ bot.on('message', async (ctx) => {
+   // результат до отправки. Но если он прямо просит не переспрашивать,
+   // предпросмотр пропускается: лишний шаг на каждой мелочи — это затык,
+   // а не безопасность.
+-  const straight = /\b(сразу|без подтвержд|не спрашивай|не переспрашивай|просто сделай)\b/i.test(text);
++  // ⚠️ Без \b: в JavaScript \b это граница между [A-Za-z0-9_] и остальным, поэтому
++  // с русскими словами он не срабатывает НИКОГДА — проверено:
++  // /\bсразу\b/i.test('приглашения сразу') === false. Из-за этого выключатель
++  // подтверждения не работал, и отдел получал «Отправляем? да» на каждую команду.
++  const straight = /(сразу|без подтвержд|не спрашивай|не переспрашивай|просто сделай)/i.test(text);
+ 
+   // ⛔ Для правки кода реплику модели НЕ показываем: разбор заявки ниже задаёт
+   // своё подтверждение, и человек получал ДВА подряд — «подтверждаешь?» от
+diff --git a/src/ops-linkedin.js b/src/ops-linkedin.js
+index b537a04..3c87d1e 100644
+--- a/src/ops-linkedin.js
++++ b/src/ops-linkedin.js
+@@ -123,15 +123,35 @@ export const OPS = {
+     publishFlag: '--publish'
+   },
+   like: {
+-    title: 'лайк', kind: 'act', script: 'like.ts',
+-    phrases: ['лайк', 'лайки', 'поставь лайк'],
++    title: 'лайки постов', kind: 'act', script: 'like.ts', presync: true,
++    phrases: ['лайк', 'лайки', 'поставь лайк', 'полайкай'],
+     params: {
+-      only: { flag: '--only=', type: 'int', required: true, desc: 'номер задания из файла репостов' },
++      // Номер больше не обязателен: like.ts по умолчанию берёт свежие посты
++      // партнёрских страниц и добор по темам отдела. Отдел номеров не знает.
++      only: { flag: '--only=', type: 'int', required: false, desc: 'номер задания из файла репостов (не обязателен)' },
+       tasks: { flag: '--tasks=', type: 'taskfile', required: false, desc: 'файл заданий; если не назвать — возьму самый свежий' }
+     },
+     taskPattern: /^repost-.*\.json$/,
+     publishFlag: '--set'
+   },
++  post: {
++    title: 'публикация своего поста', kind: 'act', script: 'post.ts', presync: true,
++    phrases: ['пост', 'посты', 'опубликуй', 'выложи пост', 'публикация'],
++    params: { only: { flag: '--only=', type: 'int', required: false, desc: 'номер поста из задания отдела' } },
++    taskPattern: /^dept-posts-.*\.json$/,
++    publishFlag: '--publish'
++  },
++  follow: {
++    title: 'подписки на людей и страницы', kind: 'act', script: 'follow.ts', presync: true,
++    phrases: ['подпишись', 'подписки', 'подписаться', 'follow'],
++    params: {},
++    publishFlag: '--publish'
++  },
++  stats: {
++    title: 'сколько сделано и сколько осталось', kind: 'read', script: 'stats.ts',
++    phrases: ['сколько', 'сколько сделал', 'сколько сделано', 'отчёт', 'отчет', 'статистика', 'лимиты', 'остаток'],
++    params: {}
++  },
+   repost: {
+     title: 'репост', kind: 'act', script: 'repost.ts',
+     phrases: ['репост', 'репосты', 'поделись постом'],
+@@ -256,7 +276,10 @@ export async function browserUp() {
+ }
+ 
+ /** Запуск скрипта проекта. Возвращает хвост вывода — в чат влезает немного. */
+-export function runScript(script, args = [], timeoutMs = 15 * 60 * 1000) {
++// 40 минут, а не 15: двадцать приглашений с человеческими паузами 1-3 минуты
++// в четверть часа не влезают — задача убивалась на 13-м, и отдел видел
++// «не уложился — остановил», хотя работа шла и приглашения уходили.
++export function runScript(script, args = [], timeoutMs = 40 * 60 * 1000) {
+   return new Promise((resolve) => {
+     // Абсолютный путь: у службы своё окружение, полагаться на PATH нельзя.
+     const child = spawn(process.env.NPX_BIN || '/opt/homebrew/bin/npx', ['tsx', join('src', script), ...args], {
+-- 
+2.50.1 (Apple Git-155)
+
