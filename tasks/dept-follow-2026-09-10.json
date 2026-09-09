@@ -1,0 +1,2559 @@
+{
+  "_note": "ЗАДАНИЕ НА ПОДПИСКИ на 2026-09-10. Норма 20 в день — безопасный потолок LinkedIn для follow.\n\nСНАЧАЛА ЛЮДИ, потом страницы. Люди — это те, кому приглашение уже отправлено (список из state/connect-sent.json, прислан отделом 09.09). Подписка на такого человека подталкивает принять приглашение: он видит активность и вспоминает про запрос. Самые свежие приглашения идут первыми — они вероятнее всего ещё висят непринятыми.\n\nОдин адрес подписываем один раз навсегда (state/followed.json), поэтому список можно держать длинным: бот берёт по 20 в день и идёт по нему сверху вниз.\n\nДальше — 24 корпоративные страницы: ритейл и сети, дистрибуция, брокеры, вет-канал, отрасль и данные. Их посты попадают в ленту и становятся материалом для комментариев.\n\nПоиск новых людей при таком файле не нужен: очередь и так на несколько недель.",
+  "date": "2026-09-10",
+  "author": "Дарья, отдел маркетинга",
+  "_limits": {
+    "perDay": 20
+  },
+  "meta": {
+    "limits": {
+      "follow_per_day": 20
+    }
+  },
+  "tasks": [
+    {
+      "id": 1,
+      "type": "follow",
+      "status": "pending",
+      "who": "Charles Simons",
+      "url": "https://www.linkedin.com/in/ACwAACueWAEBLCq6ajo7wSM7vYG2r5_LmLsLMJg",
+      "why": "приглашение отправлено 2026-09-09, Owner-Operator"
+    },
+    {
+      "id": 2,
+      "type": "follow",
+      "status": "pending",
+      "who": "Catherine Barnes",
+      "url": "https://www.linkedin.com/in/ACwAAAzFlcEBW5Ac9rcRNNZEU2hXI0gNzHAy2s8",
+      "why": "приглашение отправлено 2026-09-08, Business Owner"
+    },
+    {
+      "id": 3,
+      "type": "follow",
+      "status": "pending",
+      "who": "Carmela Kaufman",
+      "url": "https://www.linkedin.com/in/ACwAAAF7wicB8OWH0jRiAvdtk9w9BGnmna8f2o4",
+      "why": "приглашение отправлено 2026-09-08, Co-Founder & Owner"
+    },
+    {
+      "id": 4,
+      "type": "follow",
+      "status": "pending",
+      "who": "Brian Kavanagh",
+      "url": "https://www.linkedin.com/in/ACwAAAFM9J0BR-32mSi7sAUBOdILFa28RZ9dyb8",
+      "why": "приглашение отправлено 2026-09-08, Owner, Operator"
+    },
+    {
+      "id": 5,
+      "type": "follow",
+      "status": "pending",
+      "who": "Bill Klein",
+      "url": "https://www.linkedin.com/in/ACwAAABumLEBwe24ZI_qOIwxfo3zVFDKXOjaey4",
+      "why": "приглашение отправлено 2026-09-08, Co-Founder, CEO and Inventor"
+    },
+    {
+      "id": 6,
+      "type": "follow",
+      "status": "pending",
+      "who": "Anthony Whitt",
+      "url": "https://www.linkedin.com/in/ACwAABGWodEBiPQVkonTNz-sa1mtxn8EX6JTfpU",
+      "why": "приглашение отправлено 2026-09-08, Co-Owner"
+    },
+    {
+      "id": 7,
+      "type": "follow",
+      "status": "pending",
+      "who": "Anna Benson",
+      "url": "https://www.linkedin.com/in/ACwAABOeM-8ByQYsnWvhYnvD-FRKBJNGqkI4Nvk",
+      "why": "приглашение отправлено 2026-09-08, Owner"
+    },
+    {
+      "id": 8,
+      "type": "follow",
+      "status": "pending",
+      "who": "Andy Elbogen",
+      "url": "https://www.linkedin.com/in/ACwAAAIg2bkBaHx9UUf9_cdBRALbcVdTC824KUI",
+      "why": "приглашение отправлено 2026-09-08, CEO and Co-Founder at Pet Pals Corp | Pinky's Pet Care"
+    },
+    {
+      "id": 9,
+      "type": "follow",
+      "status": "pending",
+      "who": "Alicia Gempel, MBA",
+      "url": "https://www.linkedin.com/in/ACwAAACFxrYBLSbOv3kqpyq4s3uj9rtImwhsBCs",
+      "why": "приглашение отправлено 2026-09-08, Owner"
+    },
+    {
+      "id": 10,
+      "type": "follow",
+      "status": "pending",
+      "who": "Adriana Sanchez, MBA",
+      "url": "https://www.linkedin.com/in/ACwAAAVmxqMBUoqC2EnrkYjr5alTw-9tm2brzuI",
+      "why": "приглашение отправлено 2026-09-08, Business Owner"
+    },
+    {
+      "id": 11,
+      "type": "follow",
+      "status": "pending",
+      "who": "Tonya Perry",
+      "url": "https://www.linkedin.com/in/ACwAAEC5yA0BhbQMxYuoj00ZwaYs1uh93gxv3FE",
+      "why": "приглашение отправлено 2026-09-08, Franchise Owner"
+    },
+    {
+      "id": 12,
+      "type": "follow",
+      "status": "pending",
+      "who": "Scott Buchel",
+      "url": "https://www.linkedin.com/in/ACwAAAJwXmMBWSGwdwh7P1qf_0osCaKj3RyNTTo",
+      "why": "приглашение отправлено 2026-09-08, President: Tayney Managment Inc dba Pet Supplies Plus  (Franchise Owner)"
+    },
+    {
+      "id": 13,
+      "type": "follow",
+      "status": "pending",
+      "who": "Rob Kelly",
+      "url": "https://www.linkedin.com/in/ACwAAAmxhV4Bp_QYpV76_MfA0VN8UZh2oFBtGCA",
+      "why": "приглашение отправлено 2026-09-08, Owner"
+    },
+    {
+      "id": 14,
+      "type": "follow",
+      "status": "pending",
+      "who": "Per Trellevik",
+      "url": "https://www.linkedin.com/in/ACwAAANpANYBcRbp2QZaDH4oX_e3ck1nTbUuWbM",
+      "why": "приглашение отправлено 2026-09-08, Franchise Owner/ Operator"
+    },
+    {
+      "id": 15,
+      "type": "follow",
+      "status": "pending",
+      "who": "Matt Beecher",
+      "url": "https://www.linkedin.com/in/ACwAAAAJb6gBx_hsxXdHjExnxteYadRrqtNLmms",
+      "why": "приглашение отправлено 2026-09-08, Owner, Woof Gang Bakery & Grooming - San Francisco"
+    },
+    {
+      "id": 16,
+      "type": "follow",
+      "status": "pending",
+      "who": "Lori N.",
+      "url": "https://www.linkedin.com/in/ACwAAAsIBewBU8xvMpa_mQo0vOLUBCdQd_007SE",
+      "why": "приглашение отправлено 2026-09-08, Franchise Owner"
+    },
+    {
+      "id": 17,
+      "type": "follow",
+      "status": "pending",
+      "who": "Jennifer L. Park, MBA",
+      "url": "https://www.linkedin.com/in/ACwAAACL_rgBf9xz8HPg2tm1LVg2Uf4qor5Cz7Q",
+      "why": "приглашение отправлено 2026-09-08, Franchise Business Owner"
+    },
+    {
+      "id": 18,
+      "type": "follow",
+      "status": "pending",
+      "who": "Howard Nichol",
+      "url": "https://www.linkedin.com/in/ACwAAAFq8i0BVz9_2b9vPPaOCs-ubLQwNTWimF4",
+      "why": "приглашение отправлено 2026-09-08, Franchise Owner"
+    },
+    {
+      "id": 19,
+      "type": "follow",
+      "status": "pending",
+      "who": "Greg Davis",
+      "url": "https://www.linkedin.com/in/ACwAADxQbA8B3_Uvqni6itkmAJuP-xeJWjM1OMI",
+      "why": "приглашение отправлено 2026-09-08, Owner"
+    },
+    {
+      "id": 20,
+      "type": "follow",
+      "status": "pending",
+      "who": "Flavia Rodrigues",
+      "url": "https://www.linkedin.com/in/ACwAAAal0JkBtEHyU8IZuGFEW-OA-btJJvGllwg",
+      "why": "приглашение отправлено 2026-09-08, Company Owner"
+    },
+    {
+      "id": 21,
+      "type": "follow",
+      "status": "pending",
+      "who": "Dwight J. Richmond II",
+      "url": "https://www.linkedin.com/in/ACwAAAL5XtsBCzH-eRk33sssjYu4vkbdv8gsGU0",
+      "why": "приглашение отправлено 2026-09-08, Co-Owner"
+    },
+    {
+      "id": 22,
+      "type": "follow",
+      "status": "pending",
+      "who": "Dominick Zarcone, Jr.",
+      "url": "https://www.linkedin.com/in/ACwAAAlYKXIBz85eMGufrd60aiZY4bO9tAthI9Q",
+      "why": "приглашение отправлено 2026-09-08, Franchise Owner"
+    },
+    {
+      "id": 23,
+      "type": "follow",
+      "status": "pending",
+      "who": "Daylene Huckfeldt Blankenship",
+      "url": "https://www.linkedin.com/in/ACwAAC_DAx8BVeCmhQMMTdXJW8ZPoKKRO1SdqWI",
+      "why": "приглашение отправлено 2026-09-08, Franchise Owner"
+    },
+    {
+      "id": 24,
+      "type": "follow",
+      "status": "pending",
+      "who": "Damon Powell",
+      "url": "https://www.linkedin.com/in/ACwAAALZLPQBvYSNuU-EzuCedm0jv7_e_2uBBho",
+      "why": "приглашение отправлено 2026-09-08, Franchise Owner"
+    },
+    {
+      "id": 25,
+      "type": "follow",
+      "status": "pending",
+      "who": "Cole Weber",
+      "url": "https://www.linkedin.com/in/ACwAABzOSlsBu0nIaCOkxBWHu6QBwyTGdC42dCA",
+      "why": "приглашение отправлено 2026-09-08, Owner/Operator"
+    },
+    {
+      "id": 26,
+      "type": "follow",
+      "status": "pending",
+      "who": "Claudia Diaz-Munoz Carrasco",
+      "url": "https://www.linkedin.com/in/ACwAAAKWPRYBAzYVOacwP6PT8rNvh6xMZbUR9xg",
+      "why": "приглашение отправлено 2026-09-08, Franchise Owner"
+    },
+    {
+      "id": 27,
+      "type": "follow",
+      "status": "pending",
+      "who": "Christine Mansueto",
+      "url": "https://www.linkedin.com/in/ACwAABMteDsBsyy9A9hO13fpDCWOtC2Np4XW9ng",
+      "why": "приглашение отправлено 2026-09-08, Business Owner"
+    },
+    {
+      "id": 28,
+      "type": "follow",
+      "status": "pending",
+      "who": "Carrie Chapman",
+      "url": "https://www.linkedin.com/in/ACwAAAKlqRsBfYiFgmuKBM52p5NeGLiB38w0gM0",
+      "why": "приглашение отправлено 2026-09-08, Small Business Owner - Minneapolis Territory"
+    },
+    {
+      "id": 29,
+      "type": "follow",
+      "status": "pending",
+      "who": "Bill Gutrich",
+      "url": "https://www.linkedin.com/in/ACwAAAUY8tsBxO68CyhqTv1mG0gTNHqG37vZ0AI",
+      "why": "приглашение отправлено 2026-09-08, Retail Franchise Business Owner - Multiple Locations"
+    },
+    {
+      "id": 30,
+      "type": "follow",
+      "status": "pending",
+      "who": "Arti Jethwa",
+      "url": "https://www.linkedin.com/in/ACwAAAFzz9MBPErcwtWtVZGNHkIG-p4BWR3H8tE",
+      "why": "приглашение отправлено 2026-09-08, Co-Owner Woof Gang Bakery and Grooming Holly Springs"
+    },
+    {
+      "id": 31,
+      "type": "follow",
+      "status": "pending",
+      "who": "Angelica Monroy",
+      "url": "https://www.linkedin.com/in/ACwAAAE8O4UBRIE6ha05DgH9_wttc5nDRtpcLAY",
+      "why": "приглашение отправлено 2026-09-08, Franchise Owner @ Pet Wants Hinsdale"
+    },
+    {
+      "id": 32,
+      "type": "follow",
+      "status": "pending",
+      "who": "stephanie earl",
+      "url": "https://www.linkedin.com/in/ACwAAAJ87twB_Xq3GbgGtmmj1CbUFrfrltN0HKs",
+      "why": "приглашение отправлено 2026-09-08, Owner"
+    },
+    {
+      "id": 33,
+      "type": "follow",
+      "status": "pending",
+      "who": "linda goldberg",
+      "url": "https://www.linkedin.com/in/ACwAAAlIfocB6gN9yubXFq793O5lLZbHIps-SLU",
+      "why": "приглашение отправлено 2026-09-08, Business Owner"
+    },
+    {
+      "id": 34,
+      "type": "follow",
+      "status": "pending",
+      "who": "Tom Daniels",
+      "url": "https://www.linkedin.com/in/ACwAABwnynABDFCde6g8zTnEwvZinIBRON_e9us",
+      "why": "приглашение отправлено 2026-09-08, Co-Founder"
+    },
+    {
+      "id": 35,
+      "type": "follow",
+      "status": "pending",
+      "who": "Teresa Woods",
+      "url": "https://www.linkedin.com/in/ACwAAAuIMxUBG1h-42AMCvPWQ5-wb3nuruv-N2c",
+      "why": "приглашение отправлено 2026-09-08, Store Owner"
+    },
+    {
+      "id": 36,
+      "type": "follow",
+      "status": "pending",
+      "who": "Tarah Frost",
+      "url": "https://www.linkedin.com/in/ACwAABTwyJYBlTfFOOcm_pRcxGbpHbsn49GrN9I",
+      "why": "приглашение отправлено 2026-09-08, Small Business Owner"
+    },
+    {
+      "id": 37,
+      "type": "follow",
+      "status": "pending",
+      "who": "Tammy Armstrong, MBA",
+      "url": "https://www.linkedin.com/in/ACwAAB5F74UBkvMOiXFL_5HHazpG6VRPUs4rEDA",
+      "why": "приглашение отправлено 2026-09-08, Owner / Operator"
+    },
+    {
+      "id": 38,
+      "type": "follow",
+      "status": "pending",
+      "who": "Susan Martinez",
+      "url": "https://www.linkedin.com/in/ACwAABDs3ZYB1kgpud5yM_FUlt3gbXmT-I2X2gs",
+      "why": "приглашение отправлено 2026-09-08, Business Owner"
+    },
+    {
+      "id": 39,
+      "type": "follow",
+      "status": "pending",
+      "who": "Stefanie Pfann",
+      "url": "https://www.linkedin.com/in/ACwAAC3JPOQBaJTwP_osEuK4MD-EQ3wuoIYI_K4",
+      "why": "приглашение отправлено 2026-09-08, Owner"
+    },
+    {
+      "id": 40,
+      "type": "follow",
+      "status": "pending",
+      "who": "Spyq Sklar",
+      "url": "https://www.linkedin.com/in/ACwAAA6dsjoBxxCo3F9mkF0RFTZw7iF7nekpV5g",
+      "why": "приглашение отправлено 2026-09-08, Owner"
+    },
+    {
+      "id": 41,
+      "type": "follow",
+      "status": "pending",
+      "who": "Shyretta Hudnall",
+      "url": "https://www.linkedin.com/in/ACwAAAMCGK8B8g1AzgzZ5Dr6Ky40SL7RwOAKdY0",
+      "why": "приглашение отправлено 2026-09-06"
+    },
+    {
+      "id": 42,
+      "type": "follow",
+      "status": "pending",
+      "who": "Scott Oppat",
+      "url": "https://www.linkedin.com/in/ACwAAAJM7xkBY0eRi7LtLEUgXqRvOsfcV4tUAFc",
+      "why": "приглашение отправлено 2026-09-06"
+    },
+    {
+      "id": 43,
+      "type": "follow",
+      "status": "pending",
+      "who": "Rosaline Hansen",
+      "url": "https://www.linkedin.com/in/ACwAAAKugowBSJgyBqNzadfzZvcFwDY5uJYcitw",
+      "why": "приглашение отправлено 2026-09-06"
+    },
+    {
+      "id": 44,
+      "type": "follow",
+      "status": "pending",
+      "who": "Peter Berman",
+      "url": "https://www.linkedin.com/in/ACwAAAGmBvQB8IdszF2opQfRNfHWNTeJ8E3T1Io",
+      "why": "приглашение отправлено 2026-09-06"
+    },
+    {
+      "id": 45,
+      "type": "follow",
+      "status": "pending",
+      "who": "Pam Hagan",
+      "url": "https://www.linkedin.com/in/ACwAAAHrVoMBqutTJ8T_7-ZlUD7YQzom6EynFW8",
+      "why": "приглашение отправлено 2026-09-06"
+    },
+    {
+      "id": 46,
+      "type": "follow",
+      "status": "pending",
+      "who": "Michele Hanson-Pahan",
+      "url": "https://www.linkedin.com/in/ACwAABRMSscBt25nbLBPFi1bgpDBDkT3ArbK-Sc",
+      "why": "приглашение отправлено 2026-09-06"
+    },
+    {
+      "id": 47,
+      "type": "follow",
+      "status": "pending",
+      "who": "Mary Beth Kvaka",
+      "url": "https://www.linkedin.com/in/ACwAAAEDpxEBx2AOrGyzBVZyHeAm4zI3u1rYASE",
+      "why": "приглашение отправлено 2026-09-06"
+    },
+    {
+      "id": 48,
+      "type": "follow",
+      "status": "pending",
+      "who": "Mark Donavon",
+      "url": "https://www.linkedin.com/in/ACwAAAREnlcBVapx9gW6p-IO_v3MZ0xgxM8FxwM",
+      "why": "приглашение отправлено 2026-09-06"
+    },
+    {
+      "id": 49,
+      "type": "follow",
+      "status": "pending",
+      "who": "Lynn Lamoureux",
+      "url": "https://www.linkedin.com/in/ACwAAAK2la0BYJyDy44TuZnlR73gXksKSSxAgHw",
+      "why": "приглашение отправлено 2026-09-06"
+    },
+    {
+      "id": 50,
+      "type": "follow",
+      "status": "pending",
+      "who": "Lee De Barriault",
+      "url": "https://www.linkedin.com/in/ACwAAAC6wcAB3f_iA4FrtwYq1-qZSxY3fTTnTFI",
+      "why": "приглашение отправлено 2026-09-06"
+    },
+    {
+      "id": 51,
+      "type": "follow",
+      "status": "pending",
+      "who": "Lauren Hawkins",
+      "url": "https://www.linkedin.com/in/ACwAACb0o8MB0w1yaoLjmlzWhWC9N7FuYcJCJ-c",
+      "why": "приглашение отправлено 2026-09-06"
+    },
+    {
+      "id": 52,
+      "type": "follow",
+      "status": "pending",
+      "who": "Kim McCulla",
+      "url": "https://www.linkedin.com/in/ACwAAAAR7FYB77AhFCtOBDtLqKBhx3fWl_JIWlo",
+      "why": "приглашение отправлено 2026-09-06"
+    },
+    {
+      "id": 53,
+      "type": "follow",
+      "status": "pending",
+      "who": "Kelly Sampson",
+      "url": "https://www.linkedin.com/in/ACwAAADgHeQBpsyPvFN_CVQi0qrpS8-ils0-3wM",
+      "why": "приглашение отправлено 2026-09-06"
+    },
+    {
+      "id": 54,
+      "type": "follow",
+      "status": "pending",
+      "who": "Keith Sternberg",
+      "url": "https://www.linkedin.com/in/ACwAABA_psYBQp60cdEpPTf32MSNC_jEU1Dq664",
+      "why": "приглашение отправлено 2026-09-06"
+    },
+    {
+      "id": 55,
+      "type": "follow",
+      "status": "pending",
+      "who": "Kari Montgomery",
+      "url": "https://www.linkedin.com/in/ACwAAEuGgpABE4hF2RlgUdcWaneeaRqt6307L7o",
+      "why": "приглашение отправлено 2026-09-06"
+    },
+    {
+      "id": 56,
+      "type": "follow",
+      "status": "pending",
+      "who": "John Sproul",
+      "url": "https://www.linkedin.com/in/ACwAAADrOXIBd8YrSgbwFXRQsbXOLbueDWpdIzI",
+      "why": "приглашение отправлено 2026-09-06"
+    },
+    {
+      "id": 57,
+      "type": "follow",
+      "status": "pending",
+      "who": "Jim Galovski",
+      "url": "https://www.linkedin.com/in/ACwAAAS0lj0BoBqZfo9ECfUhOFuouhn8dfnk6Fg",
+      "why": "приглашение отправлено 2026-09-06"
+    },
+    {
+      "id": 58,
+      "type": "follow",
+      "status": "pending",
+      "who": "Jeremy J. P.",
+      "url": "https://www.linkedin.com/in/ACwAAAKfk4oBV1hloJvDeIREIdSH-I3pFye8V-0",
+      "why": "приглашение отправлено 2026-09-06"
+    },
+    {
+      "id": 59,
+      "type": "follow",
+      "status": "pending",
+      "who": "Jennifer Wood",
+      "url": "https://www.linkedin.com/in/ACwAAEL6WRYBiXrX5MUrKvrHfeuNyoC-l-tf1Ng",
+      "why": "приглашение отправлено 2026-09-06"
+    },
+    {
+      "id": 60,
+      "type": "follow",
+      "status": "pending",
+      "who": "Gina Tallarico",
+      "url": "https://www.linkedin.com/in/ACwAACD6eQ0B5yAeU6gsp8ipEwidxU8Vl0Pyg0g",
+      "why": "приглашение отправлено 2026-09-06"
+    },
+    {
+      "id": 61,
+      "type": "follow",
+      "status": "pending",
+      "who": "Gina Perez ⚙️",
+      "url": "https://www.linkedin.com/in/ACwAAADE9KIBSgcC73aBy6uR18Zq_k7QVhjiusU",
+      "why": "приглашение отправлено 2026-09-05"
+    },
+    {
+      "id": 62,
+      "type": "follow",
+      "status": "pending",
+      "who": "Gerald Luzynski",
+      "url": "https://www.linkedin.com/in/ACwAAADx5HgBajC1qTEq1sCF8NhOistg7X_oiG4",
+      "why": "приглашение отправлено 2026-09-05"
+    },
+    {
+      "id": 63,
+      "type": "follow",
+      "status": "pending",
+      "who": "Eric Mack",
+      "url": "https://www.linkedin.com/in/ACwAAFKJjCwBO-jqIXoVZTyJ3snxMI_9aL8l8Ts",
+      "why": "приглашение отправлено 2026-09-05"
+    },
+    {
+      "id": 64,
+      "type": "follow",
+      "status": "pending",
+      "who": "Eli Harris",
+      "url": "https://www.linkedin.com/in/ACwAAA2eNJoB8KuEcuFenUfDjyFQ2LIs2zEeVE4",
+      "why": "приглашение отправлено 2026-09-05"
+    },
+    {
+      "id": 65,
+      "type": "follow",
+      "status": "pending",
+      "who": "Domenico Ponti",
+      "url": "https://www.linkedin.com/in/ACwAABXJJq8B9PlMBzp1t7VeQPgxn6gIGQytpNk",
+      "why": "приглашение отправлено 2026-09-05"
+    },
+    {
+      "id": 66,
+      "type": "follow",
+      "status": "pending",
+      "who": "Dion Longtin",
+      "url": "https://www.linkedin.com/in/ACwAAAdGQ_MBoKNm58mD7mmtqe8YvaJpWdQUpIc",
+      "why": "приглашение отправлено 2026-09-04"
+    },
+    {
+      "id": 67,
+      "type": "follow",
+      "status": "pending",
+      "who": "Debbie Safran",
+      "url": "https://www.linkedin.com/in/ACwAAATgH7gBpbnOZGM1SojGZLFiJ1kmyTW1aiE",
+      "why": "приглашение отправлено 2026-09-04"
+    },
+    {
+      "id": 68,
+      "type": "follow",
+      "status": "pending",
+      "who": "Dawn P.",
+      "url": "https://www.linkedin.com/in/ACwAAAZUFmMBLp3iMo05SQOlvBQxvNA6zQgfV_4",
+      "why": "приглашение отправлено 2026-09-04"
+    },
+    {
+      "id": 69,
+      "type": "follow",
+      "status": "pending",
+      "who": "Danielle Wyatt",
+      "url": "https://www.linkedin.com/in/ACwAAAccCB0BJjxhidqaIpiIKZtXW6CxqAVw0fs",
+      "why": "приглашение отправлено 2026-09-04"
+    },
+    {
+      "id": 70,
+      "type": "follow",
+      "status": "pending",
+      "who": "Cristi Eckert",
+      "url": "https://www.linkedin.com/in/ACwAAAKjitwBzMPcSumT18bZ8V54aAtqDQ1kH44",
+      "why": "приглашение отправлено 2026-09-04"
+    },
+    {
+      "id": 71,
+      "type": "follow",
+      "status": "pending",
+      "who": "Chelsea Kent",
+      "url": "https://www.linkedin.com/in/ACwAAAMbrggBMmrM-fgaCMEmU_ajE9qhwNB06JU",
+      "why": "приглашение отправлено 2026-09-03"
+    },
+    {
+      "id": 72,
+      "type": "follow",
+      "status": "pending",
+      "who": "Buzz Miller",
+      "url": "https://www.linkedin.com/in/ACwAAAKCzzMBvfvwFIXDFp_K9De0DKs9boU-aNE",
+      "why": "приглашение отправлено 2026-09-03"
+    },
+    {
+      "id": 73,
+      "type": "follow",
+      "status": "pending",
+      "who": "Brandon Struebing",
+      "url": "https://www.linkedin.com/in/ACwAAAT-34oBs-DsfbUlXlOOw1TgRgPn6pgAsNk",
+      "why": "приглашение отправлено 2026-09-03"
+    },
+    {
+      "id": 74,
+      "type": "follow",
+      "status": "pending",
+      "who": "Beth Jester",
+      "url": "https://www.linkedin.com/in/ACwAAACpLO4B_dIIn2C0-dlCWPIgpnGakSl-mtw",
+      "why": "приглашение отправлено 2026-09-03"
+    },
+    {
+      "id": 75,
+      "type": "follow",
+      "status": "pending",
+      "who": "Benn Bruff",
+      "url": "https://www.linkedin.com/in/ACwAAAJuJKwBgCBcwCURll7SYKLK_ES-vVs2PAY",
+      "why": "приглашение отправлено 2026-09-03"
+    },
+    {
+      "id": 76,
+      "type": "follow",
+      "status": "pending",
+      "who": "Arnulfo Mena Treviño, Jr.",
+      "url": "https://www.linkedin.com/in/ACwAACfqIUYBmLs0mlzjuxbUFFVWNTcCry5y2Ac",
+      "why": "приглашение отправлено 2026-09-02"
+    },
+    {
+      "id": 77,
+      "type": "follow",
+      "status": "pending",
+      "who": "April G.",
+      "url": "https://www.linkedin.com/in/ACwAAGpcd2kBRI_YtfvjNyYeuab4Nzx7qsWUCv4",
+      "why": "приглашение отправлено 2026-09-02"
+    },
+    {
+      "id": 78,
+      "type": "follow",
+      "status": "pending",
+      "who": "Angela Privitera",
+      "url": "https://www.linkedin.com/in/ACwAACTddC0BTRH23dS-XkpytJtF8VPiaflX8YI",
+      "why": "приглашение отправлено 2026-09-02"
+    },
+    {
+      "id": 79,
+      "type": "follow",
+      "status": "pending",
+      "who": "Amy Hoffmann",
+      "url": "https://www.linkedin.com/in/ACwAAAKO1_wBb2RfkkqOUwGVhWltekrmoLz14x8",
+      "why": "приглашение отправлено 2026-09-02"
+    },
+    {
+      "id": 80,
+      "type": "follow",
+      "status": "pending",
+      "who": "Ali Koestner",
+      "url": "https://www.linkedin.com/in/ACwAAArbaLoB9gogbAkmMsxR-I1EnH6Q2pvNirY",
+      "why": "приглашение отправлено 2026-09-02"
+    },
+    {
+      "id": 81,
+      "type": "follow",
+      "status": "pending",
+      "who": "Madelyn Guido",
+      "url": "https://www.linkedin.com/in/ACwAABN5b4ABQ96aoXFxkLfLHGFl26QMCpr85rA",
+      "why": "приглашение отправлено 2026-09-02"
+    },
+    {
+      "id": 82,
+      "type": "follow",
+      "status": "pending",
+      "who": "Elizabeth Borchert",
+      "url": "https://www.linkedin.com/in/ACwAABHhesABJsvAIDfW2g4UR7k6JfZtSGvaDNI",
+      "why": "приглашение отправлено 2026-09-02"
+    },
+    {
+      "id": 83,
+      "type": "follow",
+      "status": "pending",
+      "who": "Jose A.",
+      "url": "https://www.linkedin.com/in/ACwAABjgVGEBtR7OmUSWgsiz3rwqYUrgEpRtg88",
+      "why": "приглашение отправлено 2026-09-02"
+    },
+    {
+      "id": 84,
+      "type": "follow",
+      "status": "pending",
+      "who": "Charlie Cordero",
+      "url": "https://www.linkedin.com/in/ACwAAAkid8UBZtZwedTnOZfDLyi_lZmA2Z_2EMk",
+      "why": "приглашение отправлено 2026-09-02"
+    },
+    {
+      "id": 85,
+      "type": "follow",
+      "status": "pending",
+      "who": "Ken Smith",
+      "url": "https://www.linkedin.com/in/ACwAAAK2sgwBenVtkMW991y2dDajFJsD1h7FIKQ",
+      "why": "приглашение отправлено 2026-09-02"
+    },
+    {
+      "id": 86,
+      "type": "follow",
+      "status": "pending",
+      "who": "Danielle Walker",
+      "url": "https://www.linkedin.com/in/ACwAAABGETwBSmeBX1bNr9cMdOpLPnkmV5bOdkg",
+      "why": "приглашение отправлено 2026-09-02"
+    },
+    {
+      "id": 87,
+      "type": "follow",
+      "status": "pending",
+      "who": "Kelley Cooper",
+      "url": "https://www.linkedin.com/in/ACwAAAC7rVQB78gwm8KBu0vPI5nM3cglbQuxoVk",
+      "why": "приглашение отправлено 2026-09-02"
+    },
+    {
+      "id": 88,
+      "type": "follow",
+      "status": "pending",
+      "who": "Matthew Allen",
+      "url": "https://www.linkedin.com/in/ACwAAAwooZkB1Je2--_Hf86V9PB_NSnkFgVg1S4",
+      "why": "приглашение отправлено 2026-09-02"
+    },
+    {
+      "id": 89,
+      "type": "follow",
+      "status": "pending",
+      "who": "Christopher Hunter",
+      "url": "https://www.linkedin.com/in/ACwAAAyLJ20B8aUIn0cWWsY05G7lUz1fVlcHQQk",
+      "why": "приглашение отправлено 2026-09-02"
+    },
+    {
+      "id": 90,
+      "type": "follow",
+      "status": "pending",
+      "who": "Adam Wilson",
+      "url": "https://www.linkedin.com/in/ACwAAEVR3UoBXcFE2LQKtSUyNljXo0nn3pTCeCc",
+      "why": "приглашение отправлено 2026-09-02"
+    },
+    {
+      "id": 91,
+      "type": "follow",
+      "status": "pending",
+      "who": "John Mullins",
+      "url": "https://www.linkedin.com/in/ACwAAAGIGgYBOe80k62HC1Yk_5JZMv5-sC63aLM",
+      "why": "приглашение отправлено 2026-09-02"
+    },
+    {
+      "id": 92,
+      "type": "follow",
+      "status": "pending",
+      "who": "Joseph Zaichenko",
+      "url": "https://www.linkedin.com/in/ACwAADZCcZEBHDP0i8xRww2u4iQvNoV-uvk_EnI",
+      "why": "приглашение отправлено 2026-09-01"
+    },
+    {
+      "id": 93,
+      "type": "follow",
+      "status": "pending",
+      "who": "Scott Hines",
+      "url": "https://www.linkedin.com/in/ACwAAAqLgf0Bdg9SpQ_0tj5sQpQuhemENWMeRv8",
+      "why": "приглашение отправлено 2026-09-01"
+    },
+    {
+      "id": 94,
+      "type": "follow",
+      "status": "pending",
+      "who": "Matt Owsley",
+      "url": "https://www.linkedin.com/in/ACwAAARkoN4BHv2WBk4E9YsQoMfkTYCweGM2a20",
+      "why": "приглашение отправлено 2026-09-01"
+    },
+    {
+      "id": 95,
+      "type": "follow",
+      "status": "pending",
+      "who": "Donovan Hamilton",
+      "url": "https://www.linkedin.com/in/ACwAAAGZfoQBbF5-trD2gpOq6uH1rZ51YASaI5A",
+      "why": "приглашение отправлено 2026-09-01"
+    },
+    {
+      "id": 96,
+      "type": "follow",
+      "status": "pending",
+      "who": "Salvador Duran",
+      "url": "https://www.linkedin.com/in/ACwAAAFXtnQBy-qhYqiWkp0vF29zEfQQ9CaaUyE",
+      "why": "приглашение отправлено 2026-09-01"
+    },
+    {
+      "id": 97,
+      "type": "follow",
+      "status": "pending",
+      "who": "Ryan Jordan",
+      "url": "https://www.linkedin.com/in/ACwAAAoEk74Bhl6xR_h8xsIoYO5fEQOJdjIfev0",
+      "why": "приглашение отправлено 2026-09-01"
+    },
+    {
+      "id": 98,
+      "type": "follow",
+      "status": "pending",
+      "who": "Nina Sufrin",
+      "url": "https://www.linkedin.com/in/ACwAAAbgL30B0CUWtlZEop416iu8ZBDY3S0jAVs",
+      "why": "приглашение отправлено 2026-09-01"
+    },
+    {
+      "id": 99,
+      "type": "follow",
+      "status": "pending",
+      "who": "Shantel Manzuik",
+      "url": "https://www.linkedin.com/in/ACwAAAM1G04BvoDdNnQNY4jOpPsyF-M-u2c2M80",
+      "why": "приглашение отправлено 2026-09-01"
+    },
+    {
+      "id": 100,
+      "type": "follow",
+      "status": "pending",
+      "who": "Amanda Del Duca (Kemble), MBA",
+      "url": "https://www.linkedin.com/in/ACwAABeVQwMBJSVDD153wKLCT3X3uPuwNtSTbdM",
+      "why": "приглашение отправлено 2026-09-01"
+    },
+    {
+      "id": 101,
+      "type": "follow",
+      "status": "pending",
+      "who": "Amy Shore",
+      "url": "https://www.linkedin.com/in/ACwAAAJ0yqoBiHIkhp2aNjt57GqbOD7o1GhNZzo",
+      "why": "приглашение отправлено 2026-09-01"
+    },
+    {
+      "id": 102,
+      "type": "follow",
+      "status": "pending",
+      "who": "Curtis Grace",
+      "url": "https://www.linkedin.com/in/ACwAACprVzgBN63XNuZCLXgnXMNZorFlasJRXJ8",
+      "why": "приглашение отправлено 2026-09-01"
+    },
+    {
+      "id": 103,
+      "type": "follow",
+      "status": "pending",
+      "who": "Grace Wickman",
+      "url": "https://www.linkedin.com/in/ACwAACyYh2ABm0Yh9SR8Oa5xsJpYvuDHd-ZpX58",
+      "why": "приглашение отправлено 2026-09-01"
+    },
+    {
+      "id": 104,
+      "type": "follow",
+      "status": "pending",
+      "who": "Alyssa Alper",
+      "url": "https://www.linkedin.com/in/ACwAAAOKEU8B6JmN8G22fZbPeWKkUqpi_XHEQUs",
+      "why": "приглашение отправлено 2026-09-01"
+    },
+    {
+      "id": 105,
+      "type": "follow",
+      "status": "pending",
+      "who": "Kleber Mosquera",
+      "url": "https://www.linkedin.com/in/ACwAAA--mYUBns4SceBqUmagLfuSUXc6VnwYIeY",
+      "why": "приглашение отправлено 2026-09-01"
+    },
+    {
+      "id": 106,
+      "type": "follow",
+      "status": "pending",
+      "who": "Richard Catalano",
+      "url": "https://www.linkedin.com/in/ACwAABgWAJIBXEDRehVnXxi7M_pQI-nqg5k4vzY",
+      "why": "приглашение отправлено 2026-09-01"
+    },
+    {
+      "id": 107,
+      "type": "follow",
+      "status": "pending",
+      "who": "Craig F.",
+      "url": "https://www.linkedin.com/in/ACwAAABZ7NwBE-qC-LX1xQ7fzb2Eq21z9CBP5aM",
+      "why": "приглашение отправлено 2026-09-01"
+    },
+    {
+      "id": 108,
+      "type": "follow",
+      "status": "pending",
+      "who": "Aaron E.",
+      "url": "https://www.linkedin.com/in/ACwAACS_1jYBnUkQU4tRF0FNiGm75yYqsX6oo9c",
+      "why": "приглашение отправлено 2026-09-01"
+    },
+    {
+      "id": 109,
+      "type": "follow",
+      "status": "pending",
+      "who": "Daniel Gelhaye",
+      "url": "https://www.linkedin.com/in/ACwAAAvJYxsBlfv__GPE-byC_ua3N-A2sQVXedE",
+      "why": "приглашение отправлено 2026-09-01"
+    },
+    {
+      "id": 110,
+      "type": "follow",
+      "status": "pending",
+      "who": "CJ VanWetten",
+      "url": "https://www.linkedin.com/in/ACwAAANezdoBuWMEJb671V_iq6_xE2BlsmhOUTY",
+      "why": "приглашение отправлено 2026-09-01"
+    },
+    {
+      "id": 111,
+      "type": "follow",
+      "status": "pending",
+      "who": "Chris Zhang 张晨曦",
+      "url": "https://www.linkedin.com/in/ACwAABH3ARMBKuQglulqe8y-C7sgQoYMwCtmy3w",
+      "why": "приглашение отправлено 2026-08-31"
+    },
+    {
+      "id": 112,
+      "type": "follow",
+      "status": "pending",
+      "who": "Patrick Egan",
+      "url": "https://www.linkedin.com/in/ACwAAAEQwZYB8QAtIGYuvlVE1jj2k1P0xJ0D_90",
+      "why": "приглашение отправлено 2026-08-31"
+    },
+    {
+      "id": 113,
+      "type": "follow",
+      "status": "pending",
+      "who": "Julie Terrazzino",
+      "url": "https://www.linkedin.com/in/ACwAAAY94-4BFRlvv4tZ5EDJ5zS1p-BwWQIlVjA",
+      "why": "приглашение отправлено 2026-08-31"
+    },
+    {
+      "id": 114,
+      "type": "follow",
+      "status": "pending",
+      "who": "Tim Dornfeld",
+      "url": "https://www.linkedin.com/in/ACwAAALIbeIBcBoRBfQwQoTBEs5L70Gv524KKO0",
+      "why": "приглашение отправлено 2026-08-31"
+    },
+    {
+      "id": 115,
+      "type": "follow",
+      "status": "pending",
+      "who": "Justin Teten",
+      "url": "https://www.linkedin.com/in/ACwAAATwhhoB--4HrSaPRH1syPswdx0hPhndH5k",
+      "why": "приглашение отправлено 2026-08-31"
+    },
+    {
+      "id": 116,
+      "type": "follow",
+      "status": "pending",
+      "who": "Gad Perdomo",
+      "url": "https://www.linkedin.com/in/ACwAAAagcI8BR3lMPaKYLPyWS5zUZC5eR8AfUAM",
+      "why": "приглашение отправлено 2026-08-31"
+    },
+    {
+      "id": 117,
+      "type": "follow",
+      "status": "pending",
+      "who": "Krista Hogan",
+      "url": "https://www.linkedin.com/in/ACwAAABKPaEBbwfV1gLrkxS7e1SRAPVLMBgTv3U",
+      "why": "приглашение отправлено 2026-08-31"
+    },
+    {
+      "id": 118,
+      "type": "follow",
+      "status": "pending",
+      "who": "Joseph Gaudreau",
+      "url": "https://www.linkedin.com/in/ACwAABzVRm0B2lbvu-oAFkn9kG8EK-LS4HHJ42Q",
+      "why": "приглашение отправлено 2026-08-31"
+    },
+    {
+      "id": 119,
+      "type": "follow",
+      "status": "pending",
+      "who": "Mark Gaedje",
+      "url": "https://www.linkedin.com/in/ACwAABlclgUB2KTQ0MufQatEp1pH_1cNFGKzHKE",
+      "why": "приглашение отправлено 2026-08-31"
+    },
+    {
+      "id": 120,
+      "type": "follow",
+      "status": "pending",
+      "who": "John Glaser",
+      "url": "https://www.linkedin.com/in/ACwAAAGEUqYB0e0OsmO9zRvE5QHikKW0TFuZ5C0",
+      "why": "приглашение отправлено 2026-08-31"
+    },
+    {
+      "id": 121,
+      "type": "follow",
+      "status": "pending",
+      "who": "Dustin Hofmeier",
+      "url": "https://www.linkedin.com/in/ACwAACHIGpABJDM0sK7A_eJrwowRVrrWCjUw5vY",
+      "why": "приглашение отправлено 2026-08-31"
+    },
+    {
+      "id": 122,
+      "type": "follow",
+      "status": "pending",
+      "who": "Sonya H.",
+      "url": "https://www.linkedin.com/in/ACwAAAfrarEBwPDn_5cxPDAZL67m1_SO3C9AcVk",
+      "why": "приглашение отправлено 2026-08-31"
+    },
+    {
+      "id": 123,
+      "type": "follow",
+      "status": "pending",
+      "who": "Evan Voss",
+      "url": "https://www.linkedin.com/in/ACwAADgomK8ByaqSa9PFXuFfj-Tc7w4pk2uOA_E",
+      "why": "приглашение отправлено 2026-08-31"
+    },
+    {
+      "id": 124,
+      "type": "follow",
+      "status": "pending",
+      "who": "Cameron Straw",
+      "url": "https://www.linkedin.com/in/ACwAAAIc_6cB8GWMV12t_LMujfNSuwoqPHK5WOg",
+      "why": "приглашение отправлено 2026-08-31"
+    },
+    {
+      "id": 125,
+      "type": "follow",
+      "status": "pending",
+      "who": "Joey Jennings",
+      "url": "https://www.linkedin.com/in/ACwAAAmMRa4BzvjXaZefemL9MsdE8mZt2syw8kI",
+      "why": "приглашение отправлено 2026-08-31"
+    },
+    {
+      "id": 126,
+      "type": "follow",
+      "status": "pending",
+      "who": "Ernesto Otero",
+      "url": "https://www.linkedin.com/in/ACwAAAlfWxABh92OKxMm19S99qEsRxgH51E_l2g",
+      "why": "приглашение отправлено 2026-08-31"
+    },
+    {
+      "id": 127,
+      "type": "follow",
+      "status": "pending",
+      "who": "Brian Adams, MBA, MHA",
+      "url": "https://www.linkedin.com/in/ACwAAAxfuP8B6UihG5l-K5oQci0EgmQXaw4aq9o",
+      "why": "приглашение отправлено 2026-08-31"
+    },
+    {
+      "id": 128,
+      "type": "follow",
+      "status": "pending",
+      "who": "Thomas Reed",
+      "url": "https://www.linkedin.com/in/ACwAAA5ghqAB6lfiwU4IIQ8c-RctiA_ax2y2DVM",
+      "why": "приглашение отправлено 2026-08-31"
+    },
+    {
+      "id": 129,
+      "type": "follow",
+      "status": "pending",
+      "who": "Chad Stewart",
+      "url": "https://www.linkedin.com/in/ACwAAA8xFs8BG6Dx8Rgamxc6DDw8wbmpGma2DfQ",
+      "why": "приглашение отправлено 2026-08-31"
+    },
+    {
+      "id": 130,
+      "type": "follow",
+      "status": "pending",
+      "who": "Amanda Wild",
+      "url": "https://www.linkedin.com/in/ACwAAAEi_OsBDM9b2hdIFSKTtPOX3zUPEO9LCgY",
+      "why": "приглашение отправлено 2026-08-31"
+    },
+    {
+      "id": 131,
+      "type": "follow",
+      "status": "pending",
+      "who": "James Boone, MBA",
+      "url": "https://www.linkedin.com/in/ACwAAAMy5MwBRc7fwzzto3UYBi2UqMsAXUGnlZY",
+      "why": "приглашение отправлено 2026-08-30"
+    },
+    {
+      "id": 132,
+      "type": "follow",
+      "status": "pending",
+      "who": "Jenny Hernandez",
+      "url": "https://www.linkedin.com/in/ACwAAAL5vY4BOf7zv9URJ07Azd4zNTeKnMwdRns",
+      "why": "приглашение отправлено 2026-08-30"
+    },
+    {
+      "id": 133,
+      "type": "follow",
+      "status": "pending",
+      "who": "Elissa P.",
+      "url": "https://www.linkedin.com/in/ACwAABOwDY8BeENza_k2YeiUFLZAVSgA4lzbqGM",
+      "why": "приглашение отправлено 2026-08-30"
+    },
+    {
+      "id": 134,
+      "type": "follow",
+      "status": "pending",
+      "who": "Dwight Kornek",
+      "url": "https://www.linkedin.com/in/ACwAAAMJqJUBNleD7aRetp-PZVVuWCH0cCmdj3g",
+      "why": "приглашение отправлено 2026-08-30"
+    },
+    {
+      "id": 135,
+      "type": "follow",
+      "status": "pending",
+      "who": "Nataly Bowman",
+      "url": "https://www.linkedin.com/in/ACwAAADCmYQBaVQXbmnZWusrHtLdOA1qyeWnOto",
+      "why": "приглашение отправлено 2026-08-30"
+    },
+    {
+      "id": 136,
+      "type": "follow",
+      "status": "pending",
+      "who": "Kathy A. Pak",
+      "url": "https://www.linkedin.com/in/ACwAAAQCLS4BUJuLL_wwCjVGXEyBFadq2wE8L14",
+      "why": "приглашение отправлено 2026-08-28"
+    },
+    {
+      "id": 137,
+      "type": "follow",
+      "status": "pending",
+      "who": "Anna Gusakova",
+      "url": "https://www.linkedin.com/in/ACwAAATA0_AB5h1KdSeiSPW01V0OFRAMQOTx0CE",
+      "why": "приглашение отправлено 2026-08-28"
+    },
+    {
+      "id": 138,
+      "type": "follow",
+      "status": "pending",
+      "who": "Brynn Lampe",
+      "url": "https://www.linkedin.com/in/ACwAAAzboOIBTfoGe6Xif4REgp1jZ0nPkUJpmQA",
+      "why": "приглашение отправлено 2026-08-28"
+    },
+    {
+      "id": 139,
+      "type": "follow",
+      "status": "pending",
+      "who": "Eric Metz",
+      "url": "https://www.linkedin.com/in/ACwAAAe_JIEBhZF618NzZcF1kXBThoOwyzUVlGA",
+      "why": "приглашение отправлено 2026-08-28"
+    },
+    {
+      "id": 140,
+      "type": "follow",
+      "status": "pending",
+      "who": "Sheena King",
+      "url": "https://www.linkedin.com/in/ACwAAAJPKZ4BA6qaIk3AUb9ZPcYaGPc9kAC5-xM",
+      "why": "приглашение отправлено 2026-08-28"
+    },
+    {
+      "id": 141,
+      "type": "follow",
+      "status": "pending",
+      "who": "Jenny Mitchell",
+      "url": "https://www.linkedin.com/in/ACwAABx9ZzkBKzgfBkZO6L8Zlnmvw-KJ_1xdCmI",
+      "why": "приглашение отправлено 2026-08-28"
+    },
+    {
+      "id": 142,
+      "type": "follow",
+      "status": "pending",
+      "who": "Taylor Valenta",
+      "url": "https://www.linkedin.com/in/ACwAABYiZ88B6SsQ_rZoXclmu-Ts-AgUmoIzFSM",
+      "why": "приглашение отправлено 2026-08-28"
+    },
+    {
+      "id": 143,
+      "type": "follow",
+      "status": "pending",
+      "who": "Nika Levinson",
+      "url": "https://www.linkedin.com/in/ACwAABhCk_ABz1W5oTPnf_Og_bS0Zb6h_lFK1GU",
+      "why": "приглашение отправлено 2026-08-28"
+    },
+    {
+      "id": 144,
+      "type": "follow",
+      "status": "pending",
+      "who": "Kirstin Ratcliffe",
+      "url": "https://www.linkedin.com/in/ACwAAAmsjjoBRm-uqptfzWZ5bMIfC8eR2uJWtNc",
+      "why": "приглашение отправлено 2026-08-28"
+    },
+    {
+      "id": 145,
+      "type": "follow",
+      "status": "pending",
+      "who": "Hunter Owen W.",
+      "url": "https://www.linkedin.com/in/ACwAABdwtQoBAIWR-60ml6KzrX6t8tn6xu2x724",
+      "why": "приглашение отправлено 2026-08-28"
+    },
+    {
+      "id": 146,
+      "type": "follow",
+      "status": "pending",
+      "who": "Thuy Nguyen",
+      "url": "https://www.linkedin.com/in/ACwAAArvZn0BjvzJEzrRyZo9iQqW2JifZVWpy50",
+      "why": "приглашение отправлено 2026-08-27"
+    },
+    {
+      "id": 147,
+      "type": "follow",
+      "status": "pending",
+      "who": "Yvette Lemieux",
+      "url": "https://www.linkedin.com/in/ACwAAAEzp5QBvGENUR7-utc0gkBXz_soz8H0w_M",
+      "why": "приглашение отправлено 2026-08-27"
+    },
+    {
+      "id": 148,
+      "type": "follow",
+      "status": "pending",
+      "who": "Lakwinder Mattu",
+      "url": "https://www.linkedin.com/in/ACwAACj8b_cBErSzoTtk4CXUQ3Xquh3Yx5-A1bs",
+      "why": "приглашение отправлено 2026-08-27"
+    },
+    {
+      "id": 149,
+      "type": "follow",
+      "status": "pending",
+      "who": "Danielle (Enga) Wold",
+      "url": "https://www.linkedin.com/in/ACwAABOzDKwBZtlgYlqtXEyvyO9wmoVdlYwAXyo",
+      "why": "приглашение отправлено 2026-08-27"
+    },
+    {
+      "id": 150,
+      "type": "follow",
+      "status": "pending",
+      "who": "Angela Moore",
+      "url": "https://www.linkedin.com/in/ACwAABcYbEgBDNdzPwKDOYPdumK0ZLEmHi6nlDg",
+      "why": "приглашение отправлено 2026-08-27"
+    },
+    {
+      "id": 151,
+      "type": "follow",
+      "status": "pending",
+      "who": "Lisa Jones",
+      "url": "https://www.linkedin.com/in/ACwAABj5tDEB8rp_tWSAKzI94VefHcWdqJ1uo58",
+      "why": "приглашение отправлено 2026-08-27"
+    },
+    {
+      "id": 152,
+      "type": "follow",
+      "status": "pending",
+      "who": "Stacy Burns LVT",
+      "url": "https://www.linkedin.com/in/ACwAABpX__EBiIeSzfY4CEQ1c4h7C2A0esV8Y9Y",
+      "why": "приглашение отправлено 2026-08-27"
+    },
+    {
+      "id": 153,
+      "type": "follow",
+      "status": "pending",
+      "who": "Brian Starr",
+      "url": "https://www.linkedin.com/in/ACwAAAuz1dABAzEyjDbsGeQnt_ENQVSBGHzbdp4",
+      "why": "приглашение отправлено 2026-08-27"
+    },
+    {
+      "id": 154,
+      "type": "follow",
+      "status": "pending",
+      "who": "Ashley Rigsby",
+      "url": "https://www.linkedin.com/in/ACwAAAIpii4BLEL8uy6r1ovOppPZAumQFhLJ1nk",
+      "why": "приглашение отправлено 2026-08-27"
+    },
+    {
+      "id": 155,
+      "type": "follow",
+      "status": "pending",
+      "who": "Tyler Langton",
+      "url": "https://www.linkedin.com/in/ACwAABqp2FYBYhDZ95gdUe0v6EhJUmraKY927ws",
+      "why": "приглашение отправлено 2026-08-27"
+    },
+    {
+      "id": 156,
+      "type": "follow",
+      "status": "pending",
+      "who": "Susan London",
+      "url": "https://www.linkedin.com/in/ACwAAEZVHLoBKnB4b4_cWEL3mk1Vav6LdXKliwE",
+      "why": "приглашение отправлено 2026-08-26"
+    },
+    {
+      "id": 157,
+      "type": "follow",
+      "status": "pending",
+      "who": "Hollis Cooper",
+      "url": "https://www.linkedin.com/in/ACwAAAB5COQBwaGa8aVSLUaKaCS4_Mv2CZBfzYE",
+      "why": "приглашение отправлено 2026-08-26"
+    },
+    {
+      "id": 158,
+      "type": "follow",
+      "status": "pending",
+      "who": "Eli Larson, DVM, MS",
+      "url": "https://www.linkedin.com/in/ACwAAAhxdMsB8lB0qY-br99iV5HNuERCRVUkvbs",
+      "why": "приглашение отправлено 2026-08-26"
+    },
+    {
+      "id": 159,
+      "type": "follow",
+      "status": "pending",
+      "who": "Tori Snyder",
+      "url": "https://www.linkedin.com/in/ACwAABuvj8YB8TgRdQwEcoOXAKGOmXHhmN1vAt8",
+      "why": "приглашение отправлено 2026-08-26"
+    },
+    {
+      "id": 160,
+      "type": "follow",
+      "status": "pending",
+      "who": "Joshua Brenner",
+      "url": "https://www.linkedin.com/in/ACwAAAstoXUBCo5--kvr0Fl_lmj7G9DgwwHE17g",
+      "why": "приглашение отправлено 2026-08-26"
+    },
+    {
+      "id": 161,
+      "type": "follow",
+      "status": "pending",
+      "who": "Andrew Rost",
+      "url": "https://www.linkedin.com/in/ACwAAAMWy-wB_irx0rJ-2QxHNhUjp3-HRIV4qxk",
+      "why": "приглашение отправлено 2026-08-26"
+    },
+    {
+      "id": 162,
+      "type": "follow",
+      "status": "pending",
+      "who": "Stacey Jakeway",
+      "url": "https://www.linkedin.com/in/ACwAABeRPj4Bo0tKjohGVvZUtjnGxyAXPFbO-l8",
+      "why": "приглашение отправлено 2026-08-26"
+    },
+    {
+      "id": 163,
+      "type": "follow",
+      "status": "pending",
+      "who": "Jake Bankert",
+      "url": "https://www.linkedin.com/in/ACwAAAlnwMkBhlV9k-6wHKDpjKlh6I0O91IqTf8",
+      "why": "приглашение отправлено 2026-08-26"
+    },
+    {
+      "id": 164,
+      "type": "follow",
+      "status": "pending",
+      "who": "Katie Bell",
+      "url": "https://www.linkedin.com/in/ACwAACbdndIBV3ugWoU-wKRzam29rmldAyIb74M",
+      "why": "приглашение отправлено 2026-08-26"
+    },
+    {
+      "id": 165,
+      "type": "follow",
+      "status": "pending",
+      "who": "Rebecca Casselman",
+      "url": "https://www.linkedin.com/in/ACwAAAC5MyQBIInZ6x_TgkV_jGSFbhroODhFiP0",
+      "why": "приглашение отправлено 2026-08-26"
+    },
+    {
+      "id": 166,
+      "type": "follow",
+      "status": "pending",
+      "who": "Joseph Shields",
+      "url": "https://www.linkedin.com/in/ACwAAFy3RDEB5nkX1Iy5yXhQTEejlyAgz_npAEs",
+      "why": "приглашение отправлено 2026-08-25"
+    },
+    {
+      "id": 167,
+      "type": "follow",
+      "status": "pending",
+      "who": "Brady Cunningham",
+      "url": "https://www.linkedin.com/in/ACwAAAlEgvIBtCRXtwHaqyamvALpsnECMbPDYLM",
+      "why": "приглашение отправлено 2026-08-25"
+    },
+    {
+      "id": 168,
+      "type": "follow",
+      "status": "pending",
+      "who": "Chris Shaw",
+      "url": "https://www.linkedin.com/in/ACwAAAAkz6gBu4i70AZCKvsc9Icf9-WPxBVj6Ww",
+      "why": "приглашение отправлено 2026-08-25"
+    },
+    {
+      "id": 169,
+      "type": "follow",
+      "status": "pending",
+      "who": "Jon Dinchak, MBA, PMP",
+      "url": "https://www.linkedin.com/in/ACwAAAB-T3UB3U-j9SJdK8yFDik5fPYfEUCvgUc",
+      "why": "приглашение отправлено 2026-08-25"
+    },
+    {
+      "id": 170,
+      "type": "follow",
+      "status": "pending",
+      "who": "Shailin Patel",
+      "url": "https://www.linkedin.com/in/ACwAAC3ba_AB2yMC9FkDoO73KhwZRvIrQAuc0o0",
+      "why": "приглашение отправлено 2026-08-25"
+    },
+    {
+      "id": 171,
+      "type": "follow",
+      "status": "pending",
+      "who": "Douglas Vance",
+      "url": "https://www.linkedin.com/in/ACwAAAEa48kBq_JS_ZhBrwOR15Vv-LGTn_IGRzU",
+      "why": "приглашение отправлено 2026-08-25"
+    },
+    {
+      "id": 172,
+      "type": "follow",
+      "status": "pending",
+      "who": "Dustin Bevins",
+      "url": "https://www.linkedin.com/in/ACwAAFnfQ4UBK-EAMG6vjlUZe_nR96WV803y1kA",
+      "why": "приглашение отправлено 2026-08-25"
+    },
+    {
+      "id": 173,
+      "type": "follow",
+      "status": "pending",
+      "who": "Kay Meisinger",
+      "url": "https://www.linkedin.com/in/ACwAAAQOQU8BbHkwrVJaekgEzCk-T-6eBZsxz6o",
+      "why": "приглашение отправлено 2026-08-25"
+    },
+    {
+      "id": 174,
+      "type": "follow",
+      "status": "pending",
+      "who": "Kelly Exon",
+      "url": "https://www.linkedin.com/in/ACwAAAjgJnABCJlRegJ864TiaLAX4MvXB6bBe0w",
+      "why": "приглашение отправлено 2026-08-24"
+    },
+    {
+      "id": 175,
+      "type": "follow",
+      "status": "pending",
+      "who": "Vince Vanvourellis",
+      "url": "https://www.linkedin.com/in/ACwAAADwbaEB8C3r-7eY4ch62DrWy89RGGvNGkE",
+      "why": "приглашение отправлено 2026-08-24"
+    },
+    {
+      "id": 176,
+      "type": "follow",
+      "status": "pending",
+      "who": "Jeff Schutt",
+      "url": "https://www.linkedin.com/in/ACwAAAXA7hkBzkGZInXTNd1qgOLLH6rf3HxUIsE",
+      "why": "приглашение отправлено 2026-08-24"
+    },
+    {
+      "id": 177,
+      "type": "follow",
+      "status": "pending",
+      "who": "Ashley Reilly",
+      "url": "https://www.linkedin.com/in/ACwAABibQvEBJrppHXzNfBbB0Y2E0xKzcu2aRoI",
+      "why": "приглашение отправлено 2026-08-24"
+    },
+    {
+      "id": 178,
+      "type": "follow",
+      "status": "pending",
+      "who": "David Eskew",
+      "url": "https://www.linkedin.com/in/ACwAAAhcZX8BwLYqMec5kU_01utgbAOMCV5y1yE",
+      "why": "приглашение отправлено 2026-08-24"
+    },
+    {
+      "id": 179,
+      "type": "follow",
+      "status": "pending",
+      "who": "Dennis Forth",
+      "url": "https://www.linkedin.com/in/ACwAAAE7PbcB1BMtvJmzsZZltCeEPiaFoUvb0HA",
+      "why": "приглашение отправлено 2026-08-24"
+    },
+    {
+      "id": 180,
+      "type": "follow",
+      "status": "pending",
+      "who": "Laura Benson, CSCP",
+      "url": "https://www.linkedin.com/in/ACwAACjwzTUBfcj7dcH5hwOnZ7fzLQw3i0MKN3s",
+      "why": "приглашение отправлено 2026-08-24"
+    },
+    {
+      "id": 181,
+      "type": "follow",
+      "status": "pending",
+      "who": "Katie Tolonen",
+      "url": "https://www.linkedin.com/in/ACwAABMN5r4BYzIKn0X_7qlf0ttsH6YJCIi3RUk",
+      "why": "приглашение отправлено 2026-08-24"
+    },
+    {
+      "id": 182,
+      "type": "follow",
+      "status": "pending",
+      "who": "Dave Kaak",
+      "url": "https://www.linkedin.com/in/ACwAAArCX90BdzTH_If0uSD7Bz_c1hkgBLfvogw",
+      "why": "приглашение отправлено 2026-08-24"
+    },
+    {
+      "id": 183,
+      "type": "follow",
+      "status": "pending",
+      "who": "Meghan Howard",
+      "url": "https://www.linkedin.com/in/ACwAAAJt4MoBMAg8s0cKxaUw1s5GbsnIUsWCTO8",
+      "why": "приглашение отправлено 2026-08-24"
+    },
+    {
+      "id": 184,
+      "type": "follow",
+      "status": "pending",
+      "who": "Carol Wiese",
+      "url": "https://www.linkedin.com/in/ACwAAADgEacBPTwzZnEiqKLKf7_WJSsI6VmJrOs",
+      "why": "приглашение отправлено 2026-08-23"
+    },
+    {
+      "id": 185,
+      "type": "follow",
+      "status": "pending",
+      "who": "Abby Ramsey",
+      "url": "https://www.linkedin.com/in/ACwAABUXvm8BKU0k4KMUjfLdy0el7b7jJlnzpHU",
+      "why": "приглашение отправлено 2026-08-23"
+    },
+    {
+      "id": 186,
+      "type": "follow",
+      "status": "pending",
+      "who": "Martin Fysh",
+      "url": "https://www.linkedin.com/in/ACwAAAK3R5IB3lU0jvluxyiC7ER0Oi_hfcowmuM",
+      "why": "приглашение отправлено 2026-08-23"
+    },
+    {
+      "id": 187,
+      "type": "follow",
+      "status": "pending",
+      "who": "Santi Ripoll",
+      "url": "https://www.linkedin.com/in/ACwAACjDRWcBFwXANBo9EMx8eYG6Zvvzw7obitw",
+      "why": "приглашение отправлено 2026-08-23"
+    },
+    {
+      "id": 188,
+      "type": "follow",
+      "status": "pending",
+      "who": "Ann Cheong",
+      "url": "https://www.linkedin.com/in/ACwAACHr3qYBLPUCGsDxMdqn5ufmUl2aEmkt5h4",
+      "why": "приглашение отправлено 2026-08-23"
+    },
+    {
+      "id": 189,
+      "type": "follow",
+      "status": "pending",
+      "who": "Benjy Mogensen",
+      "url": "https://www.linkedin.com/in/ACwAAAWGx6IBJuuAORus5PxHNUaSGij46QOii4k",
+      "why": "приглашение отправлено 2026-08-23"
+    },
+    {
+      "id": 190,
+      "type": "follow",
+      "status": "pending",
+      "who": "Shanley Tilley",
+      "url": "https://www.linkedin.com/in/ACwAABJf9nkBU9jk6KKafxmsgn2_K4RyigyiFNU",
+      "why": "приглашение отправлено 2026-08-23"
+    },
+    {
+      "id": 191,
+      "type": "follow",
+      "status": "pending",
+      "who": "jean mcghee",
+      "url": "https://www.linkedin.com/in/ACwAAAmYR1MB0R-cr8I9CDSNT48LeFF0yoZw2yg",
+      "why": "приглашение отправлено 2026-08-23"
+    },
+    {
+      "id": 192,
+      "type": "follow",
+      "status": "pending",
+      "who": "Tony Neff",
+      "url": "https://www.linkedin.com/in/ACwAAAzEs2gB27enn4TofBZ1Q5QxDmUj3QO8u-Y",
+      "why": "приглашение отправлено 2026-08-23"
+    },
+    {
+      "id": 193,
+      "type": "follow",
+      "status": "pending",
+      "who": "Tony Neff",
+      "url": "https://www.linkedin.com/in/ACwAAAPvjDwBFbkJYoB04Vdw-Ew_mHCdQR4ZY6U",
+      "why": "приглашение отправлено 2026-08-23"
+    },
+    {
+      "id": 194,
+      "type": "follow",
+      "status": "pending",
+      "who": "Amanda Koffski",
+      "url": "https://www.linkedin.com/in/ACwAAAOGZAUBx8jBG0SCC_9AWE6vMkmr9LExtIA",
+      "why": "приглашение отправлено 2026-08-21"
+    },
+    {
+      "id": 195,
+      "type": "follow",
+      "status": "pending",
+      "who": "Lance Koester",
+      "url": "https://www.linkedin.com/in/ACwAAAKlAJkBpzbHVrO_RCfz082J4ab8fawGvmo",
+      "why": "приглашение отправлено 2026-08-21"
+    },
+    {
+      "id": 196,
+      "type": "follow",
+      "status": "pending",
+      "who": "Ryan Jones",
+      "url": "https://www.linkedin.com/in/ACwAAAiXveUBBk1y1sEon3swcTJqdqyOYI2rQ6s",
+      "why": "приглашение отправлено 2026-08-21"
+    },
+    {
+      "id": 197,
+      "type": "follow",
+      "status": "pending",
+      "who": "Andrea Stratton",
+      "url": "https://www.linkedin.com/in/ACwAAC_e82ABZWBHIYcu8XRczPOGltbnjzFWABs",
+      "why": "приглашение отправлено 2026-08-21"
+    },
+    {
+      "id": 198,
+      "type": "follow",
+      "status": "pending",
+      "who": "Ronny Blackwell Jr",
+      "url": "https://www.linkedin.com/in/ACwAAAG9-lQBw2IY2d9pnifLDBdIeqYloTdneFw",
+      "why": "приглашение отправлено 2026-08-21"
+    },
+    {
+      "id": 199,
+      "type": "follow",
+      "status": "pending",
+      "who": "Zach Barton",
+      "url": "https://www.linkedin.com/in/ACwAACZbojkBkpp7E_eieSri6Q9IcxrJCc0mJzw",
+      "why": "приглашение отправлено 2026-08-21"
+    },
+    {
+      "id": 200,
+      "type": "follow",
+      "status": "pending",
+      "who": "Susie Stampa-Stein",
+      "url": "https://www.linkedin.com/in/ACwAABNAXcsBPFc4gZQnqHVVeF1nz5_hCYztXtQ",
+      "why": "приглашение отправлено 2026-08-21"
+    },
+    {
+      "id": 201,
+      "type": "follow",
+      "status": "pending",
+      "who": "Christopher Indyk",
+      "url": "https://www.linkedin.com/in/ACwAAA2TiSQBtCXIeieDQhK5fDJqwceuzBSVmG0",
+      "why": "приглашение отправлено 2026-08-21"
+    },
+    {
+      "id": 202,
+      "type": "follow",
+      "status": "pending",
+      "who": "Matt Phelps",
+      "url": "https://www.linkedin.com/in/ACwAAAN_d3wBO3EPtQbohUYa-K__JQGzX9MK32E",
+      "why": "приглашение отправлено 2026-08-21"
+    },
+    {
+      "id": 203,
+      "type": "follow",
+      "status": "pending",
+      "who": "Fernando Rodriguez",
+      "url": "https://www.linkedin.com/in/ACwAAAeD_tgBX4GaINLi_ybhxu32voh7fJ7q0Rg",
+      "why": "приглашение отправлено 2026-08-21"
+    },
+    {
+      "id": 204,
+      "type": "follow",
+      "status": "pending",
+      "who": "Kim Gale",
+      "url": "https://www.linkedin.com/in/ACwAAAmXDLQBo5MQ9TKDG_wB6yPGJSgt_XCTPD0",
+      "why": "приглашение отправлено 2026-08-20"
+    },
+    {
+      "id": 205,
+      "type": "follow",
+      "status": "pending",
+      "who": "Judith S.",
+      "url": "https://www.linkedin.com/in/ACwAAAJqGwUBh9B13vBMHE-FBkulne7yAN-seOo",
+      "why": "приглашение отправлено 2026-08-20"
+    },
+    {
+      "id": 206,
+      "type": "follow",
+      "status": "pending",
+      "who": "Jacqueline Pico",
+      "url": "https://www.linkedin.com/in/ACwAADCKgGsBRZNA599hr3GrvDvNIHJX0b5l9IU",
+      "why": "приглашение отправлено 2026-08-20"
+    },
+    {
+      "id": 207,
+      "type": "follow",
+      "status": "pending",
+      "who": "Alison Happe Woldman",
+      "url": "https://www.linkedin.com/in/ACwAAAF7QrIB2EBSV5N-_Y_8c9fBa7VWnmula5U",
+      "why": "приглашение отправлено 2026-08-20"
+    },
+    {
+      "id": 208,
+      "type": "follow",
+      "status": "pending",
+      "who": "Ailedys Castellon",
+      "url": "https://www.linkedin.com/in/ACwAABTvGFwBpNGAzkn5z9196UFeQo7OnWqMNqk",
+      "why": "приглашение отправлено 2026-08-20"
+    },
+    {
+      "id": 209,
+      "type": "follow",
+      "status": "pending",
+      "who": "Jorge Tinoco",
+      "url": "https://www.linkedin.com/in/ACwAACvRlAsBkUR0N7ThioNYtYudJZoysHhO_rU",
+      "why": "приглашение отправлено 2026-08-20"
+    },
+    {
+      "id": 210,
+      "type": "follow",
+      "status": "pending",
+      "who": "Whitney Wilmott",
+      "url": "https://www.linkedin.com/in/ACwAAFRDKYoB78GBppPCf5VJua9k1bh2dGU2WBI",
+      "why": "приглашение отправлено 2026-08-20"
+    },
+    {
+      "id": 211,
+      "type": "follow",
+      "status": "pending",
+      "who": "Marney McGovern",
+      "url": "https://www.linkedin.com/in/ACwAAAYMoCoBr8oRsEOQynbGJASCPfbB_v2moxY",
+      "why": "приглашение отправлено 2026-08-20"
+    },
+    {
+      "id": 212,
+      "type": "follow",
+      "status": "pending",
+      "who": "Brett Claudio",
+      "url": "https://www.linkedin.com/in/ACwAAF6PrLMBHeOLE_a6AkZogVcHTpN8DreWUsk",
+      "why": "приглашение отправлено 2026-08-19"
+    },
+    {
+      "id": 213,
+      "type": "follow",
+      "status": "pending",
+      "who": "Jennifer Bratton",
+      "url": "https://www.linkedin.com/in/ACwAAAjTMpgBz-TMfz3N5oQ-dsFlVR1WwU1nI7E",
+      "why": "приглашение отправлено 2026-08-19"
+    },
+    {
+      "id": 214,
+      "type": "follow",
+      "status": "pending",
+      "who": "Cherish Morrison",
+      "url": "https://www.linkedin.com/in/ACwAAAMKeAIBg7Q0p-AA1QexbVDIvd4SCyO-dcc",
+      "why": "приглашение отправлено 2026-08-19"
+    },
+    {
+      "id": 215,
+      "type": "follow",
+      "status": "pending",
+      "who": "Greg McBride",
+      "url": "https://www.linkedin.com/in/ACwAAGS3a40B6oHEOxmFt5roDRSV2Rg9xg_HyHw",
+      "why": "приглашение отправлено 2026-08-19"
+    },
+    {
+      "id": 216,
+      "type": "follow",
+      "status": "pending",
+      "who": "Karen Salamanca",
+      "url": "https://www.linkedin.com/in/ACwAAAw4BDkB0SPhJXriY2j8FbiqicwUocdxP68",
+      "why": "приглашение отправлено 2026-08-19"
+    },
+    {
+      "id": 217,
+      "type": "follow",
+      "status": "pending",
+      "who": "Kate Lancaster",
+      "url": "https://www.linkedin.com/in/ACwAABT68qwBU5C-rG5xwURw5pzFnrd-LdKXp9k",
+      "why": "приглашение отправлено 2026-08-19"
+    },
+    {
+      "id": 218,
+      "type": "follow",
+      "status": "pending",
+      "who": "Terrell Lee",
+      "url": "https://www.linkedin.com/in/ACwAAAUEF5cBMCOxpDZue1gUGG6K5AKu4T_yQac",
+      "why": "приглашение отправлено 2026-08-19"
+    },
+    {
+      "id": 219,
+      "type": "follow",
+      "status": "pending",
+      "who": "Matthew Beene",
+      "url": "https://www.linkedin.com/in/ACwAABj7PCgB7B2DCVbcsvuOd-ueYbFYXLHYlBA",
+      "why": "приглашение отправлено 2026-08-19"
+    },
+    {
+      "id": 220,
+      "type": "follow",
+      "status": "pending",
+      "who": "Laura May",
+      "url": "https://www.linkedin.com/in/ACwAABSHrvEB055R2pkjINXQStSAmpRC-tfltZg",
+      "why": "приглашение отправлено 2026-08-18"
+    },
+    {
+      "id": 221,
+      "type": "follow",
+      "status": "pending",
+      "who": "Tracy Donnelly",
+      "url": "https://www.linkedin.com/in/ACwAAAFf-VYBvg5JsfRZkJWRh0yseH1KoMJ2WeU",
+      "why": "приглашение отправлено 2026-08-18"
+    },
+    {
+      "id": 222,
+      "type": "follow",
+      "status": "pending",
+      "who": "Margaret Noonan",
+      "url": "https://www.linkedin.com/in/ACwAAAq6xAMBIdOhHXAbb2YYbUM7Wbxkt5T1aak",
+      "why": "приглашение отправлено 2026-08-18"
+    },
+    {
+      "id": 223,
+      "type": "follow",
+      "status": "pending",
+      "who": "Abra Stein",
+      "url": "https://www.linkedin.com/in/ACwAAAD9gGUBW2-p5wwaL35-8TrX3fnpGHZGkts",
+      "why": "приглашение отправлено 2026-08-18"
+    },
+    {
+      "id": 224,
+      "type": "follow",
+      "status": "pending",
+      "who": "Andrea Petrone",
+      "url": "https://www.linkedin.com/in/ACwAAABOZuAB9Woem6x1C1k1uz6J2m1FP0Y-B-o",
+      "why": "приглашение отправлено 2026-08-16"
+    },
+    {
+      "id": 225,
+      "type": "follow",
+      "status": "pending",
+      "who": "Sandra Handschuh",
+      "url": "https://www.linkedin.com/in/ACwAAB3uYAwBtvCl_G9p_hmZY-FUDL_9yc5rSFI",
+      "why": "приглашение отправлено 2026-08-16"
+    },
+    {
+      "id": 226,
+      "type": "follow",
+      "status": "pending",
+      "who": "Paige Kuhn",
+      "url": "https://www.linkedin.com/in/ACwAABr8xF0BOTG66f8VnO81WaII26ae6TlHLXg",
+      "why": "приглашение отправлено 2026-08-16"
+    },
+    {
+      "id": 227,
+      "type": "follow",
+      "status": "pending",
+      "who": "Emily Knight",
+      "url": "https://www.linkedin.com/in/ACwAAAEITxIBkuFMxhngD7EzLGNf3VkWsBVr3BE",
+      "why": "приглашение отправлено 2026-08-16"
+    },
+    {
+      "id": 228,
+      "type": "follow",
+      "status": "pending",
+      "who": "Neely Branham",
+      "url": "https://www.linkedin.com/in/ACwAAC-PKZkBEQUQWhLDsZiPlmbVJVh8HG3vnto",
+      "why": "приглашение отправлено 2026-08-16"
+    },
+    {
+      "id": 229,
+      "type": "follow",
+      "status": "pending",
+      "who": "Carrie Villani",
+      "url": "https://www.linkedin.com/in/ACwAAAHHN98BXjrlaHh_99exWSUueiAYbMTDTwE",
+      "why": "приглашение отправлено 2026-08-16"
+    },
+    {
+      "id": 230,
+      "type": "follow",
+      "status": "pending",
+      "who": "Christopher Kirklin",
+      "url": "https://www.linkedin.com/in/ACwAABppG5kB3ecaW6lOeaA62BFwUBcmBFewOPk",
+      "why": "приглашение отправлено 2026-08-16"
+    },
+    {
+      "id": 231,
+      "type": "follow",
+      "status": "pending",
+      "who": "Kate Fogerty",
+      "url": "https://www.linkedin.com/in/ACwAAACCxloBAmhMZK08UkooYlwU1VyLgX9bj5c",
+      "why": "приглашение отправлено 2026-08-16"
+    },
+    {
+      "id": 232,
+      "type": "follow",
+      "status": "pending",
+      "who": "Dee Randall",
+      "url": "https://www.linkedin.com/in/ACwAAAFeuAUBwx915Au3ZjqPYpDRWc1KWry4pjY",
+      "why": "приглашение отправлено 2026-08-13"
+    },
+    {
+      "id": 233,
+      "type": "follow",
+      "status": "pending",
+      "who": "Heather (Burke) Schoenbart",
+      "url": "https://www.linkedin.com/in/ACwAAAJ9JNMB_gFSsOqs4rkiM33FMhe5OsslL_A",
+      "why": "приглашение отправлено 2026-08-13"
+    },
+    {
+      "id": 234,
+      "type": "follow",
+      "status": "pending",
+      "who": "Julie Harmon",
+      "url": "https://www.linkedin.com/in/ACwAABYIWgQBZgG26-g0kPj-lGZoFaey2ghR73E",
+      "why": "приглашение отправлено 2026-08-13"
+    },
+    {
+      "id": 235,
+      "type": "follow",
+      "status": "pending",
+      "who": "Emily C.",
+      "url": "https://www.linkedin.com/in/ACwAABdegjEBrcJ-jjB95L96h2K1a-GK3B_Nbag",
+      "why": "приглашение отправлено 2026-08-13"
+    },
+    {
+      "id": 236,
+      "type": "follow",
+      "status": "pending",
+      "who": "Ashley Smith",
+      "url": "https://www.linkedin.com/in/ACwAAAKpv2oB6bnKulNSyOj7iQHPhZ0YIt8IVxE",
+      "why": "приглашение отправлено 2026-08-13"
+    },
+    {
+      "id": 237,
+      "type": "follow",
+      "status": "pending",
+      "who": "Grace Berding",
+      "url": "https://www.linkedin.com/in/ACwAACvNSyoBhfVj1sS-bqx7v63G3iqb84-1nCQ",
+      "why": "приглашение отправлено 2026-08-13"
+    },
+    {
+      "id": 238,
+      "type": "follow",
+      "status": "pending",
+      "who": "Gavin Clontz",
+      "url": "https://www.linkedin.com/in/ACwAABRUorMBsuoYjjpw6KQg63l2iKjRrbHOFZs",
+      "why": "приглашение отправлено 2026-08-13"
+    },
+    {
+      "id": 239,
+      "type": "follow",
+      "status": "pending",
+      "who": "Christina O'Brien",
+      "url": "https://www.linkedin.com/in/ACwAAAL7074BPj2UVe6B1C1pA1MWFOWH92vMCoQ",
+      "why": "приглашение отправлено 2026-08-13"
+    },
+    {
+      "id": 240,
+      "type": "follow",
+      "status": "pending",
+      "who": "Lauren Khalil",
+      "url": "https://www.linkedin.com/in/ACwAAEtJfIMBhjcaFm4ufABH5NedeBfv3-ATTjE",
+      "why": "приглашение отправлено 2026-08-10"
+    },
+    {
+      "id": 241,
+      "type": "follow",
+      "status": "pending",
+      "who": "Christian Vasquez",
+      "url": "https://www.linkedin.com/in/ACwAAFRjYFABj_m9okkjUfcn0wE6vdYKgDxnQlM",
+      "why": "приглашение отправлено 2026-08-10"
+    },
+    {
+      "id": 242,
+      "type": "follow",
+      "status": "pending",
+      "who": "Ronnie Fielding",
+      "url": "https://www.linkedin.com/in/ACwAAA5L5HIB-kb6RnBTxkDKHJuM-g4bdLtNw58",
+      "why": "приглашение отправлено 2026-08-10"
+    },
+    {
+      "id": 243,
+      "type": "follow",
+      "status": "pending",
+      "who": "Sydney Grahovec",
+      "url": "https://www.linkedin.com/in/ACwAAA05COQBOxHw-zWEYXGCYg-23xm2VNcCtY8",
+      "why": "приглашение отправлено 2026-08-10"
+    },
+    {
+      "id": 244,
+      "type": "follow",
+      "status": "pending",
+      "who": "Sharon Nair",
+      "url": "https://www.linkedin.com/in/ACwAAAGf9soBtSbjuG6T2VgNudBxmhJ0cpPRxKM",
+      "why": "приглашение отправлено 2026-08-10"
+    },
+    {
+      "id": 245,
+      "type": "follow",
+      "status": "pending",
+      "who": "Rob Zolmer",
+      "url": "https://www.linkedin.com/in/ACwAAGE2NSoBGuNK8AzTIP06QfLXr-HJw3sruIA",
+      "why": "приглашение отправлено 2026-08-10"
+    },
+    {
+      "id": 246,
+      "type": "follow",
+      "status": "pending",
+      "who": "Patricia Hires",
+      "url": "https://www.linkedin.com/in/ACwAAEZQkdUBDfrLkEmLJDCjEbavG4g5bSHGWIE",
+      "why": "приглашение отправлено 2026-08-10"
+    },
+    {
+      "id": 247,
+      "type": "follow",
+      "status": "pending",
+      "who": "Andrew Steltz",
+      "url": "https://www.linkedin.com/in/ACwAADGDa3EBe961EtMAIybcCM52bGu_y35-HP0",
+      "why": "приглашение отправлено 2026-08-10"
+    },
+    {
+      "id": 248,
+      "type": "follow",
+      "status": "pending",
+      "who": "Renata Iliev",
+      "url": "https://www.linkedin.com/in/ACwAABHcPKEBRG4LOpZwlOj6fG9K9n1TXGpakhg",
+      "why": "приглашение отправлено 2026-08-05"
+    },
+    {
+      "id": 249,
+      "type": "follow",
+      "status": "pending",
+      "who": "Torrance Nonnenmacher",
+      "url": "https://www.linkedin.com/in/ACwAAClD0AQB4Fd_Q5ZU_B1QZhhIlj6jC9voTCI",
+      "why": "приглашение отправлено 2026-08-05"
+    },
+    {
+      "id": 250,
+      "type": "follow",
+      "status": "pending",
+      "who": "Kelecia Harris",
+      "url": "https://www.linkedin.com/in/ACwAAC2tqPcBqCgNJFYHU091NXi217_B4na9rQY",
+      "why": "приглашение отправлено 2026-08-05"
+    },
+    {
+      "id": 251,
+      "type": "follow",
+      "status": "pending",
+      "who": "Jose Veliz",
+      "url": "https://www.linkedin.com/in/ACwAAEk3jq8BBUeHDjnUEMVNPAWeOT9pzWf3X5M",
+      "why": "приглашение отправлено 2026-08-04"
+    },
+    {
+      "id": 252,
+      "type": "follow",
+      "status": "pending",
+      "who": "Dan Geist",
+      "url": "https://www.linkedin.com/in/ACwAAA_iuvEBepL8HihHkdaw-mhp4TMBKLjP6AU",
+      "why": "приглашение отправлено 2026-08-04"
+    },
+    {
+      "id": 253,
+      "type": "follow",
+      "status": "pending",
+      "who": "Jordan Kovalsky, MBA",
+      "url": "https://www.linkedin.com/in/ACwAACZvGlIBm1QEHp4bAoe6J2MhMigtT2sDMn0",
+      "why": "приглашение отправлено 2026-08-04"
+    },
+    {
+      "id": 254,
+      "type": "follow",
+      "status": "pending",
+      "who": "Christopher Paul Schretter",
+      "url": "https://www.linkedin.com/in/ACwAAAV84qgB76XM7QjTMvQZ63AoPfJBFLQJlTI",
+      "why": "приглашение отправлено 2026-08-04"
+    },
+    {
+      "id": 255,
+      "type": "follow",
+      "status": "pending",
+      "who": "Valerie Slawson Kehoe",
+      "url": "https://www.linkedin.com/in/ACwAAAIfF_sBJQCCcKoZ4izvWQBJaSlSEhnWeRE",
+      "why": "приглашение отправлено 2026-08-04"
+    },
+    {
+      "id": 256,
+      "type": "follow",
+      "status": "pending",
+      "who": "Cheryl Eberle",
+      "url": "https://www.linkedin.com/in/ACwAACs9qrsBiA7E5Fh1ZtSwKR8Djd_WI4Ihbog",
+      "why": "приглашение отправлено 2026-08-04"
+    },
+    {
+      "id": 257,
+      "type": "follow",
+      "status": "pending",
+      "who": "Sally Kluzner",
+      "url": "https://www.linkedin.com/in/ACwAAAhRWlMBlRmT_eKMu8W9pHQSgu7_ooZDQbE",
+      "why": "приглашение отправлено 2026-08-04"
+    },
+    {
+      "id": 258,
+      "type": "follow",
+      "status": "pending",
+      "who": "Chris Shannon B",
+      "url": "https://www.linkedin.com/in/ACwAAAmb-cMBxmgcJ6k4sJF-mqbDJr2ScoQIHNY",
+      "why": "приглашение отправлено 2026-08-04"
+    },
+    {
+      "id": 259,
+      "type": "follow",
+      "status": "pending",
+      "who": "Greg McBride",
+      "url": "https://www.linkedin.com/in/ACwAAB3QRbwBKtONcE4GO7srrxgk2JJbl6Kyw24",
+      "why": "приглашение отправлено 2026-08-04"
+    },
+    {
+      "id": 260,
+      "type": "follow",
+      "status": "pending",
+      "who": "Eva Brown",
+      "url": "https://www.linkedin.com/in/ACwAADtI9-EBaI67CPqqlibLicY5RgZ8HQSeO7E",
+      "why": "приглашение отправлено 2026-08-04"
+    },
+    {
+      "id": 261,
+      "type": "follow",
+      "status": "pending",
+      "who": "Keith Correll",
+      "url": "https://www.linkedin.com/in/ACwAABI0x4kB1N4SYAORfcz8QlTViNjm0su-zhU",
+      "why": "приглашение отправлено 2026-08-04"
+    },
+    {
+      "id": 262,
+      "type": "follow",
+      "status": "pending",
+      "who": "Darlene Catapano",
+      "url": "https://www.linkedin.com/in/ACwAACpes-YBOM_W4IFqqRV1XE92WXP8HTFtl-0",
+      "why": "приглашение отправлено 2026-08-04"
+    },
+    {
+      "id": 263,
+      "type": "follow",
+      "status": "pending",
+      "who": "Trey Acord",
+      "url": "https://www.linkedin.com/in/ACwAACFJeCoBUZ1iMUpSgjOrB1OEp3lCcsF9eFs",
+      "why": "приглашение отправлено 2026-08-04"
+    },
+    {
+      "id": 264,
+      "type": "follow",
+      "status": "pending",
+      "who": "Morgan C.",
+      "url": "https://www.linkedin.com/in/ACwAACRw1A0BTdXQRKBJJvVISAUqrSAy8UR6RXY",
+      "why": "приглашение отправлено 2026-08-04"
+    },
+    {
+      "id": 265,
+      "type": "follow",
+      "status": "pending",
+      "who": "Michael Falkenburg",
+      "url": "https://www.linkedin.com/in/ACwAACJA6G0BXjZ0hsGVGzgzQMTRP0xOK4TUXLM",
+      "why": "приглашение отправлено 2026-08-04"
+    },
+    {
+      "id": 266,
+      "type": "follow",
+      "status": "pending",
+      "who": "Kristie Nixon",
+      "url": "https://www.linkedin.com/in/ACwAAAh8Ew0BiGbgmNVhiuj-xnTL8wi-MkZ2b3Q",
+      "why": "приглашение отправлено 2026-08-04"
+    },
+    {
+      "id": 267,
+      "type": "follow",
+      "status": "pending",
+      "who": "Dannyal V.",
+      "url": "https://www.linkedin.com/in/ACwAACij7koBorwrROrLs2xyYYBW4N1fwntrAvw",
+      "why": "приглашение отправлено 2026-08-04"
+    },
+    {
+      "id": 268,
+      "type": "follow",
+      "status": "pending",
+      "who": "Alicia McGinniss",
+      "url": "https://www.linkedin.com/in/ACwAABXH0_YBZ6sCnqAlaQTMVLlUcVoL1KNYJfE",
+      "why": "приглашение отправлено 2026-08-04"
+    },
+    {
+      "id": 269,
+      "type": "follow",
+      "status": "pending",
+      "who": "Stacy Arnold",
+      "url": "https://www.linkedin.com/in/ACwAABBrEFcBipK3nPB3KogFfs80AE6_a77M3nQ",
+      "why": "приглашение отправлено 2026-08-04"
+    },
+    {
+      "id": 270,
+      "type": "follow",
+      "status": "pending",
+      "who": "Karey Deeb",
+      "url": "https://www.linkedin.com/in/ACwAAAVaDF0Bg9wLuMuDwHJ3KYu_N5ZY1sV-74o",
+      "why": "приглашение отправлено 2026-08-04"
+    },
+    {
+      "id": 271,
+      "type": "follow",
+      "status": "pending",
+      "who": "Elizabeth Marquez-Derby",
+      "url": "https://www.linkedin.com/in/ACwAADITA8IBvjPuv_0HAOG2bwvZKlVif3tPgWg",
+      "why": "приглашение отправлено 2026-08-04"
+    },
+    {
+      "id": 272,
+      "type": "follow",
+      "status": "pending",
+      "who": "Moe Hassan, MBA",
+      "url": "https://www.linkedin.com/in/ACwAACPxTYMBjg9jikRIic1jPM3YgfCUecJAcd0",
+      "why": "приглашение отправлено 2026-08-04"
+    },
+    {
+      "id": 273,
+      "type": "follow",
+      "status": "pending",
+      "who": "Polina Semeykina",
+      "url": "https://www.linkedin.com/in/ACwAAAe1POQBzxUbsV24_N1M5P_siEpiWVH5KH8",
+      "why": "приглашение отправлено 2026-08-04"
+    },
+    {
+      "id": 274,
+      "type": "follow",
+      "status": "pending",
+      "who": "Jessie X.",
+      "url": "https://www.linkedin.com/in/ACwAACJZEUYBQxLk__OsUouUaUBc377e2nn6mJ0",
+      "why": "приглашение отправлено 2026-08-04"
+    },
+    {
+      "id": 275,
+      "type": "follow",
+      "status": "pending",
+      "who": "Danny Abrahams, MBA",
+      "url": "https://www.linkedin.com/in/ACwAAAd5c1MBUPHuoSXBj46RDVmnd5rXSQXJ5Yg",
+      "why": "приглашение отправлено 2026-08-04"
+    },
+    {
+      "id": 276,
+      "type": "follow",
+      "status": "pending",
+      "who": "Jack Erbs",
+      "url": "https://www.linkedin.com/in/ACwAAAfo9ZYBJP4de1B7VS4RSkJ8Y0bmUVYzr10",
+      "why": "приглашение отправлено 2026-08-04"
+    },
+    {
+      "id": 277,
+      "type": "follow",
+      "status": "pending",
+      "who": "Megan Chase",
+      "url": "https://www.linkedin.com/in/ACwAAAMCsVYBeqB2mSrkBpfa7sCe6b2XBX9O_EM",
+      "why": "приглашение отправлено 2026-07-31"
+    },
+    {
+      "id": 278,
+      "type": "follow",
+      "status": "pending",
+      "who": "Megan Michel",
+      "url": "https://www.linkedin.com/in/ACwAABwo-6kB2kZU6R8ks0Fj3gmpFbF9xjYn7-8",
+      "why": "приглашение отправлено 2026-07-31"
+    },
+    {
+      "id": 279,
+      "type": "follow",
+      "status": "pending",
+      "who": "Emma Begley",
+      "url": "https://www.linkedin.com/in/ACwAABrjwnQBb7av2YlBdJngF1BANe4me5lIlIQ",
+      "why": "приглашение отправлено 2026-07-31"
+    },
+    {
+      "id": 280,
+      "type": "follow",
+      "status": "pending",
+      "who": "Michael Swint",
+      "url": "https://www.linkedin.com/in/ACwAACULDdIBbRYoDRZaGcBHr8ZhTf4yhQap06Y",
+      "why": "приглашение отправлено 2026-07-31"
+    },
+    {
+      "id": 281,
+      "type": "follow",
+      "status": "pending",
+      "who": "Zach Allen",
+      "url": "https://www.linkedin.com/in/ACwAAABHOQ0B6Or69S5Qs5dGp8PUd5VJ21RD3gc",
+      "why": "приглашение отправлено 2026-07-31"
+    },
+    {
+      "id": 282,
+      "type": "follow",
+      "status": "pending",
+      "who": "Joshua Frazier",
+      "url": "https://www.linkedin.com/in/ACwAABA9NDoBGA7vL4hCeICzfzTn7SLkN4rMWQs",
+      "why": "приглашение отправлено 2026-07-31"
+    },
+    {
+      "id": 283,
+      "type": "follow",
+      "status": "pending",
+      "who": "Nina Pucci",
+      "url": "https://www.linkedin.com/in/ACwAAB7cq0gBV_DkoeKrzXDL5Or7P6JO9SDtIvY",
+      "why": "приглашение отправлено 2026-07-31"
+    },
+    {
+      "id": 284,
+      "type": "follow",
+      "status": "pending",
+      "who": "Camila Paez",
+      "url": "https://www.linkedin.com/in/ACwAABZ0OfwBVLzpjM4d0S59sPHwF_gkIengedA",
+      "why": "приглашение отправлено 2026-07-31"
+    },
+    {
+      "id": 285,
+      "type": "follow",
+      "status": "pending",
+      "who": "Emma Costello",
+      "url": "https://www.linkedin.com/in/ACwAACoUQRoBXOp7EgQ5zwzI4XdZmhoI8qDHnBM",
+      "why": "приглашение отправлено 2026-07-31"
+    },
+    {
+      "id": 286,
+      "type": "follow",
+      "status": "pending",
+      "who": "Kelli Howell",
+      "url": "https://www.linkedin.com/in/ACwAABMLGmAB9m6bRKjiHnw5Grf8jPBTGnylJxo",
+      "why": "приглашение отправлено 2026-07-31"
+    },
+    {
+      "id": 287,
+      "type": "follow",
+      "status": "pending",
+      "who": "Chris Tofte",
+      "url": "https://www.linkedin.com/in/ACwAABa6wmMBbWKDbuzfhEbbRPLfkCj6ZPHokoQ",
+      "why": "приглашение отправлено 2026-07-31"
+    },
+    {
+      "id": 288,
+      "type": "follow",
+      "status": "pending",
+      "who": "Matthew Golding",
+      "url": "https://www.linkedin.com/in/ACwAABdxQREBQvY2fSBZAVVk9ITkp3q0dXBTcLs",
+      "why": "приглашение отправлено 2026-07-31"
+    },
+    {
+      "id": 289,
+      "type": "follow",
+      "status": "pending",
+      "who": "Zulema Stephanie Labra",
+      "url": "https://www.linkedin.com/in/ACwAACjjSckB05IA0TuFvv2euFlq8PzOebjlxwA",
+      "why": "приглашение отправлено 2026-07-31"
+    },
+    {
+      "id": 290,
+      "type": "follow",
+      "status": "pending",
+      "who": "Ethan French",
+      "url": "https://www.linkedin.com/in/ACwAAClcfDoBioOFIuTA4TxB3PandWb02ZSq3i4",
+      "why": "приглашение отправлено 2026-07-31"
+    },
+    {
+      "id": 291,
+      "type": "follow",
+      "status": "pending",
+      "who": "Lauren Vinciguerra",
+      "url": "https://www.linkedin.com/in/ACwAABG2glUB-ZfJR83dRQpj6zmID4c99mq-ldE",
+      "why": "приглашение отправлено 2026-07-31"
+    },
+    {
+      "id": 292,
+      "type": "follow",
+      "status": "pending",
+      "who": "Chewy",
+      "url": "https://www.linkedin.com/company/chewy/",
+      "why": "ритейл",
+      "address_checked": true
+    },
+    {
+      "id": 293,
+      "type": "follow",
+      "status": "pending",
+      "who": "Petco",
+      "url": "https://www.linkedin.com/company/petco/",
+      "why": "ритейл",
+      "address_checked": true
+    },
+    {
+      "id": 294,
+      "type": "follow",
+      "status": "pending",
+      "who": "PetSmart",
+      "url": "https://www.linkedin.com/company/petsmart/",
+      "why": "ритейл",
+      "address_checked": true
+    },
+    {
+      "id": 295,
+      "type": "follow",
+      "status": "pending",
+      "who": "Target",
+      "url": "https://www.linkedin.com/company/target/",
+      "why": "ритейл",
+      "address_checked": true
+    },
+    {
+      "id": 296,
+      "type": "follow",
+      "status": "pending",
+      "who": "Walmart",
+      "url": "https://www.linkedin.com/company/walmart/",
+      "why": "ритейл",
+      "address_checked": true
+    },
+    {
+      "id": 297,
+      "type": "follow",
+      "status": "pending",
+      "who": "Costco Wholesale",
+      "url": "https://www.linkedin.com/company/costco/",
+      "why": "ритейл",
+      "address_checked": true
+    },
+    {
+      "id": 298,
+      "type": "follow",
+      "status": "pending",
+      "who": "Kroger",
+      "url": "https://www.linkedin.com/company/kroger/",
+      "why": "ритейл",
+      "address_checked": true
+    },
+    {
+      "id": 299,
+      "type": "follow",
+      "status": "pending",
+      "who": "Tractor Supply",
+      "url": "https://www.linkedin.com/company/tractor-supply-company/",
+      "why": "ритейл: farm & feed",
+      "address_checked": true
+    },
+    {
+      "id": 300,
+      "type": "follow",
+      "status": "pending",
+      "who": "Petland",
+      "url": "https://www.linkedin.com/company/petland-inc/",
+      "why": "сеть зоомагазинов",
+      "address_checked": true
+    },
+    {
+      "id": 301,
+      "type": "follow",
+      "status": "pending",
+      "who": "Phillips Pet Food & Supplies",
+      "url": "https://www.linkedin.com/company/phillips-pet-food-supplies/",
+      "why": "дистрибуция",
+      "address_checked": true
+    },
+    {
+      "id": 302,
+      "type": "follow",
+      "status": "pending",
+      "who": "Animal Supply Company",
+      "url": "https://www.linkedin.com/company/animal-supply-company/",
+      "why": "дистрибуция",
+      "address_checked": true
+    },
+    {
+      "id": 303,
+      "type": "follow",
+      "status": "pending",
+      "who": "Pet Food Experts",
+      "url": "https://www.linkedin.com/company/pet-food-experts/",
+      "why": "дистрибуция",
+      "address_checked": true
+    },
+    {
+      "id": 304,
+      "type": "follow",
+      "status": "pending",
+      "who": "Central Garden & Pet",
+      "url": "https://www.linkedin.com/company/central-garden-%26-pet/",
+      "why": "производство и дистрибуция",
+      "address_checked": true
+    },
+    {
+      "id": 305,
+      "type": "follow",
+      "status": "pending",
+      "who": "UNFI",
+      "url": "https://www.linkedin.com/company/unfi/",
+      "why": "дистрибуция natural/grocery",
+      "address_checked": true
+    },
+    {
+      "id": 306,
+      "type": "follow",
+      "status": "pending",
+      "who": "CROSSMARK",
+      "url": "https://www.linkedin.com/company/crossmark/",
+      "why": "брокер / retail execution",
+      "address_checked": true
+    },
+    {
+      "id": 307,
+      "type": "follow",
+      "status": "pending",
+      "who": "MWI Animal Health",
+      "url": "https://www.linkedin.com/company/mwi-animal-health/",
+      "why": "вет-канал",
+      "address_checked": true
+    },
+    {
+      "id": 308,
+      "type": "follow",
+      "status": "pending",
+      "who": "Covetrus",
+      "url": "https://www.linkedin.com/company/covetrus/",
+      "why": "вет-канал",
+      "address_checked": true
+    },
+    {
+      "id": 309,
+      "type": "follow",
+      "status": "pending",
+      "who": "Pet Food Institute",
+      "url": "https://www.linkedin.com/company/pet-food-institute/",
+      "why": "отрасль",
+      "address_checked": true
+    },
+    {
+      "id": 310,
+      "type": "follow",
+      "status": "pending",
+      "who": "Pet Business",
+      "url": "https://www.linkedin.com/company/pet-business-magazine/",
+      "why": "медиа",
+      "address_checked": true
+    },
+    {
+      "id": 311,
+      "type": "follow",
+      "status": "pending",
+      "who": "NielsenIQ",
+      "url": "https://www.linkedin.com/company/nielseniq/",
+      "why": "данные категории",
+      "address_checked": true
+    },
+    {
+      "id": 312,
+      "type": "follow",
+      "status": "pending",
+      "who": "Pet Supplies Plus",
+      "url": "https://www.linkedin.com/company/pet-supplies-plus/",
+      "why": "сеть зоомагазинов",
+      "address_checked": false
+    },
+    {
+      "id": 313,
+      "type": "follow",
+      "status": "pending",
+      "who": "KeHE Distributors",
+      "url": "https://www.linkedin.com/company/kehe-distributors/",
+      "why": "дистрибуция",
+      "address_checked": false
+    },
+    {
+      "id": 314,
+      "type": "follow",
+      "status": "pending",
+      "who": "Acosta",
+      "url": "https://www.linkedin.com/company/acosta/",
+      "why": "брокер",
+      "address_checked": false
+    },
+    {
+      "id": 315,
+      "type": "follow",
+      "status": "pending",
+      "who": "Pet Food Processing",
+      "url": "https://www.linkedin.com/company/pet-food-processing/",
+      "why": "медиа: производство",
+      "address_checked": false
+    }
+  ]
+}
