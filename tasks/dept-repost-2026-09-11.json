@@ -1,0 +1,25 @@
+{
+  "_note": "Репосты двух постов страницы Beloved Pets на профиль Сергея, режим «Repost with thoughts». Подписи готовы — сочинять не надо, отправлять дословно. Лайк на исходный пост ставится тем же пунктом (likeSource). expect_first_line — страховка: если первая строка поста не совпала, бот не публикует, иначе подпись уедет под чужой пост (так уже было 06.09 с неверным urn).",
+  "date": "2026-09-11",
+  "author": "Дарья, отдел маркетинга",
+  "tasks": [
+    {
+      "id": 1,
+      "topic": "поколения владельцев: для кого на самом деле построена полка",
+      "url": "https://www.linkedin.com/posts/three-people-walk-the-same-breed-of-dog-at-ugcPost-7504081931123277824-O4yt/",
+      "urn": "urn:li:ugcPost:7504081931123277824",
+      "expect_first_line": "Three people walk the same breed of dog at 7 AM",
+      "likeSource": true,
+      "caption": "The line in here that stings is the last one: we write for the Millennial because the Millennial writes the marketing. I've signed off on packaging a sixty-year-old man would never pick up, and he's the one who's been buying dog treats every week since 1998. That's not a trend problem. It's a blind spot, and it's ours."
+    },
+    {
+      "id": 2,
+      "topic": "покупает человек, а не питомец",
+      "url": "https://www.linkedin.com/posts/the-pet-industry-segments-by-animal-the-ugcPost-7504078535334977536-E5c4/",
+      "urn": "urn:li:ugcPost:7504078535334977536",
+      "expect_first_line": "The pet industry segments by animal",
+      "likeSource": true,
+      "caption": "The thing I still get wrong after all these years is who I'm actually talking to. We build for the animal because the animal is easy to describe. The person holding the leash is harder — she's tired, she feels guilty, and she decided something before she ever walked in. Every product call I've regretted came from forgetting that."
+    }
+  ]
+}
