@@ -1,6 +1,6 @@
 {
-  "_note": "Страницы партнёров и байеров: их посты обходит watch-pages, на них же бот подписывается (follow --pages). Список правит отдел — это данные, а не код. Бот читает СНАЧАЛА эту копию из репозитория заданий (state/control/partner-pages.json), потом копию в репозитории кода: значит добавить страницу можно без мержа. slug берётся из адреса: linkedin.com/company/<slug>/",
-  "updated": "2026-09-07",
+  "_note": "Страницы партнёров и байеров: их посты обходит watch-pages, на них же бот подписывается (follow --pages). Список правит отдел — это данные, а не код. Бот читает СНАЧАЛА эту копию из репозитория заданий (state/control/partner-pages.json), потом копию в репозитории кода: значит добавить страницу можно без мержа. slug берётся из адреса: linkedin.com/company/<slug>/\n\nСписок расширен 11.09.2026 по заданию отдела: выставки, сети, независимые магазины, байеры, брокеры, дистрибьюторы, отраслевые издания. Адреса страниц выставлены по известным написаниям — те, что не откроются, бот назовёт в отчёте строкой «кнопки Follow на странице нет», и их можно просто убрать.",
+  "updated": "2026-09-11",
   "pages": [
     {
       "slug": "chewy",
@@ -69,6 +69,236 @@
     {
       "slug": "nielseniq",
       "name": "NielsenIQ"
+    },
+    {
+      "slug": "world-pet-association",
+      "name": "World Pet Association (SuperZoo)",
+      "kind": "выставка"
+    },
+    {
+      "slug": "global-pet-expo",
+      "name": "Global Pet Expo",
+      "kind": "выставка"
+    },
+    {
+      "slug": "american-pet-products-association",
+      "name": "American Pet Products Association",
+      "kind": "ассоциация"
+    },
+    {
+      "slug": "watt-global-media",
+      "name": "WATT Global Media (Petfood Forum)",
+      "kind": "выставка"
+    },
+    {
+      "slug": "pijac",
+      "name": "PIJAC",
+      "kind": "ассоциация"
+    },
+    {
+      "slug": "nasc-live",
+      "name": "National Animal Supplement Council",
+      "kind": "ассоциация"
+    },
+    {
+      "slug": "pet-sustainability-coalition",
+      "name": "Pet Sustainability Coalition",
+      "kind": "ассоциация"
+    },
+    {
+      "slug": "navc",
+      "name": "NAVC (VMX)",
+      "kind": "выставка"
+    },
+    {
+      "slug": "viticus-group",
+      "name": "Viticus Group (WVC)",
+      "kind": "выставка"
+    },
+    {
+      "slug": "pet-industry-distributors-association",
+      "name": "Pet Industry Distributors Association",
+      "kind": "ассоциация"
+    },
+    {
+      "slug": "pet-supplies-plus",
+      "name": "Pet Supplies Plus",
+      "kind": "сеть"
+    },
+    {
+      "slug": "pet-valu",
+      "name": "Pet Valu",
+      "kind": "сеть"
+    },
+    {
+      "slug": "petland-inc",
+      "name": "Petland",
+      "kind": "сеть"
+    },
+    {
+      "slug": "hollywood-feed",
+      "name": "Hollywood Feed",
+      "kind": "сеть"
+    },
+    {
+      "slug": "mud-bay",
+      "name": "Mud Bay",
+      "kind": "сеть"
+    },
+    {
+      "slug": "pet-food-express",
+      "name": "Pet Food Express",
+      "kind": "сеть"
+    },
+    {
+      "slug": "earthwise-pet",
+      "name": "EarthWise Pet",
+      "kind": "сеть"
+    },
+    {
+      "slug": "woof-gang-bakery",
+      "name": "Woof Gang Bakery & Grooming",
+      "kind": "сеть"
+    },
+    {
+      "slug": "krisers",
+      "name": "Kriser’s Natural Pet",
+      "kind": "сеть"
+    },
+    {
+      "slug": "petpeople",
+      "name": "PetPeople",
+      "kind": "сеть"
+    },
+    {
+      "slug": "independent-pet-partners",
+      "name": "Independent Pet Partners",
+      "kind": "сеть"
+    },
+    {
+      "slug": "pet-supermarket",
+      "name": "Pet Supermarket",
+      "kind": "сеть"
+    },
+    {
+      "slug": "petsense",
+      "name": "Petsense by Tractor Supply",
+      "kind": "сеть"
+    },
+    {
+      "slug": "kehe-distributors",
+      "name": "KeHE Distributors",
+      "kind": "дистрибьютор"
+    },
+    {
+      "slug": "unfi",
+      "name": "UNFI",
+      "kind": "дистрибьютор"
+    },
+    {
+      "slug": "patterson-veterinary",
+      "name": "Patterson Veterinary",
+      "kind": "дистрибьютор"
+    },
+    {
+      "slug": "central-pet",
+      "name": "Central Pet",
+      "kind": "дистрибьютор"
+    },
+    {
+      "slug": "acosta",
+      "name": "Acosta",
+      "kind": "брокер"
+    },
+    {
+      "slug": "advantage-solutions",
+      "name": "Advantage Solutions",
+      "kind": "брокер"
+    },
+    {
+      "slug": "crossmark",
+      "name": "CROSSMARK",
+      "kind": "брокер"
+    },
+    {
+      "slug": "impactgroup",
+      "name": "Impact Group",
+      "kind": "брокер"
+    },
+    {
+      "slug": "pet-age-magazine",
+      "name": "Pet Age",
+      "kind": "медиа"
+    },
+    {
+      "slug": "pet-product-news",
+      "name": "Pet Product News",
+      "kind": "медиа"
+    },
+    {
+      "slug": "petfoodindustry-com",
+      "name": "Petfood Industry",
+      "kind": "медиа"
+    },
+    {
+      "slug": "packaged-facts",
+      "name": "Packaged Facts",
+      "kind": "данные"
+    },
+    {
+      "slug": "circana",
+      "name": "Circana",
+      "kind": "данные"
+    },
+    {
+      "slug": "meijer",
+      "name": "Meijer",
+      "kind": "сеть"
+    },
+    {
+      "slug": "publix-super-markets",
+      "name": "Publix",
+      "kind": "сеть"
+    },
+    {
+      "slug": "h-e-b",
+      "name": "H-E-B",
+      "kind": "сеть"
+    },
+    {
+      "slug": "wegmans-food-markets",
+      "name": "Wegmans",
+      "kind": "сеть"
+    },
+    {
+      "slug": "the-giant-company",
+      "name": "The Giant Company",
+      "kind": "сеть"
+    },
+    {
+      "slug": "ahold-delhaize-usa",
+      "name": "Ahold Delhaize USA",
+      "kind": "сеть"
+    },
+    {
+      "slug": "sprouts-farmers-market",
+      "name": "Sprouts Farmers Market",
+      "kind": "сеть"
+    },
+    {
+      "slug": "thrive-market",
+      "name": "Thrive Market",
+      "kind": "сеть"
+    },
+    {
+      "slug": "sams-club",
+      "name": "Sam’s Club",
+      "kind": "сеть"
+    },
+    {
+      "slug": "bjs-wholesale-club",
+      "name": "BJ’s Wholesale Club",
+      "kind": "сеть"
     }
   ]
 }
