@@ -4,7 +4,7 @@
 пояснения. Бот берёт содержимое первого такого блока.
 
 ```
-Hi {Имя} — founder of Beloved Pets here. We have a wide catalog of natural, premium products for dogs and cats — treats, supplements, flea & tick, eye & ear care — and we're actively moving onto US shelves. Would be glad to connect and explore a partnership.
+Hi {Имя} — Sergey here, I run Beloved Pets, a pet wellness brand: treats and supplements. We sold DTC and Amazon first and are only now working toward shelf, which is a different game entirely. Connecting with people who already know that side. Would be glad to connect.
 ```
 
 Как это работает:
@@ -13,10 +13,23 @@ Hi {Имя} — founder of Beloved Pets here. We have a wide catalog of natural,
 - лимит LinkedIn — 300 знаков, лишнее обрезается, поэтому держим текст короче
   (в текущем варианте 268);
 - зачин и последнюю фразу бот слегка варьирует между людьми: пятнадцать сотрудников
-  одной компании не должны получить побуквенно одинаковое письмо;
+  одной компании не должны получить побуквенно одинаковое письмо. Поэтому начало
+  `Hi {Имя} — ` и концовку `Would be glad to connect.` менять нельзя: по ним бот
+  и подставляет варианты;
 - этот файл важнее текста, который лежит в очереди на Диске: если файл есть, берётся он.
 
 Нельзя писать: «Made in USA», «vet-developed», «vet-approved», обещания лечения.
 Проверка стоит в коде (`claims.ts`), но лучше не доводить до неё.
 
-Версия от 2026-09-03, автор — отдел маркетинга (Дарья).
+## Почему текст такой
+
+Прежний вариант две трети объёма тратил на наш ассортимент — «wide catalog»,
+«premium», перечисление категорий — и в первом же сообщении просил партнёрства.
+Так пишет каждый поставщик, и байер закрывает такое не читая.
+
+Сейчас в записке три вещи и ни одной просьбы: кто написал, чем занимается бренд
+и почему он пишет именно этому человеку. Признание «мы выросли на онлайне и
+только идём в розницу» честное — на полке нас пока нет, — и оно обезоруживает.
+Отвечают на него чаще, чем на предложение о партнёрстве.
+
+Версия от 2026-09-19, автор — отдел маркетинга (Дарья).
