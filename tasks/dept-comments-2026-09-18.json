@@ -1,0 +1,296 @@
+{
+  "_note": "Тексты переписаны 18.09.2026. Прежние были написаны голосом ветерана ритейла и поучали байеров — а мы на полку ещё не зашли. Теперь говорит основатель, выросший на DTC и Amazon и идущий в розницу: коротко, без афоризмов, с настоящим вопросом. Ни одного утверждения о бренде, которого нет в наших данных.",
+  "date": "2026-09-18",
+  "author": "Дарья, отдел маркетинга",
+  "_limits": {
+    "perDay": 5
+  },
+  "meta": {
+    "limits": {
+      "comment_per_day": 5,
+      "like_per_day": 10
+    }
+  },
+  "tasks": [
+    {
+      "id": 13,
+      "type": "comment",
+      "status": "pending",
+      "topic": "выставки США: последний день — единственный честный",
+      "query": "superzoo show floor booth vegas",
+      "searchUrl": "https://www.linkedin.com/search/results/content/?keywords=superzoo%20show%20floor%20booth%20vegas&datePosted=%22past-week%22&sortBy=%22date_posted%22",
+      "comment": "We've only sold DTC and Amazon so far, so shows are still new to us. Honest question: if someone books you for the last day, does that read as unprepared, or is it easier once the calendar has finally cleared?",
+      "max_post_age_days": 7
+    },
+    {
+      "id": 14,
+      "type": "comment",
+      "status": "pending",
+      "topic": "Global Pet Expo: ассортимент решается до выставки",
+      "query": "global pet expo orlando new product showcase",
+      "searchUrl": "https://www.linkedin.com/search/results/content/?keywords=global%20pet%20expo%20orlando%20new%20product%20showcase&datePosted=%22past-week%22&sortBy=%22date_posted%22",
+      "comment": "This is the part I keep underestimating — I've been treating the show as the start of the conversation. If most of it is settled at line review, when should a brand that isn't in the catalogue yet be reaching out? Months ahead, or is there no good moment?",
+      "max_post_age_days": 7
+    },
+    {
+      "id": 15,
+      "type": "comment",
+      "status": "pending",
+      "topic": "после выставки: две недели решают всё",
+      "query": "trade show follow up leads samples buyers distributor",
+      "searchUrl": "https://www.linkedin.com/search/results/content/?keywords=trade%20show%20follow%20up%20leads%20samples%20buyers%20distributor&datePosted=%22past-week%22&sortBy=%22date_posted%22",
+      "comment": "Case pack, lead time and MAP answered before anyone asks twice — that's the most concrete list I've seen on this. Coming from DTC, I'd rather learn it now than in the meeting. What else belongs on it?",
+      "max_post_age_days": 7
+    },
+    {
+      "id": 16,
+      "type": "comment",
+      "status": "pending",
+      "topic": "дистрибуция: каталог и скорость продаж — два разных решения",
+      "query": "pet distributor broker distribution partners retailers",
+      "searchUrl": "https://www.linkedin.com/search/results/content/?keywords=pet%20distributor%20broker%20distribution%20partners%20retailers&datePosted=%22past-week%22&sortBy=%22date_posted%22",
+      "comment": "Getting listed and actually selling through are clearly two different problems, and we're not even at the first one yet. For a brand with no field team, is a distributor realistic at all, or does that only work once you can put people in stores?",
+      "max_post_age_days": 7
+    },
+    {
+      "id": 17,
+      "type": "comment",
+      "status": "pending",
+      "topic": "ресеты: товары умирают на полке тихо",
+      "query": "category review planogram reset shelf space buyer pet",
+      "searchUrl": "https://www.linkedin.com/search/results/content/?keywords=category%20review%20planogram%20reset%20shelf%20space%20buyer%20pet&datePosted=%22past-week%22&sortBy=%22date_posted%22",
+      "comment": "The part that worries me as a newcomer is that nobody tells you it's happening. How much warning does a brand normally get before a reset drops it, and is there anything useful to do in that window?",
+      "max_post_age_days": 7
+    },
+    {
+      "id": 12,
+      "type": "comment",
+      "status": "pending",
+      "topic": "полку выигрывают продажи, а теряют операции",
+      "query": "retail buyer shelf listing fill rate distribution pet",
+      "searchUrl": "https://www.linkedin.com/search/results/content/?keywords=retail%20buyer%20shelf%20listing%20fill%20rate%20distribution%20pet&datePosted=%22past-week%22&sortBy=%22date_posted%22",
+      "comment": "We're strong on demand and weak on the operational side, which after reading this sounds like the wrong way round. Which operational failure gets a brand delisted fastest — short shipments, late deliveries, or paperwork?",
+      "max_post_age_days": 7
+    },
+    {
+      "id": 11,
+      "type": "comment",
+      "status": "pending",
+      "topic": "данные роста категории: деньги растут быстрее объёма",
+      "query": "pet food category growth value volume data",
+      "searchUrl": "https://www.linkedin.com/search/results/content/?keywords=pet%20food%20category%20growth%20value%20volume%20data&datePosted=%22past-week%22&sortBy=%22date_posted%22",
+      "comment": "Value growing faster than volume shows up in our own DTC numbers too, and I've been reading it as a good sign. Is it, or is it the same buyers absorbing price increases until they stop?",
+      "max_post_age_days": 7
+    },
+    {
+      "id": 1,
+      "type": "comment",
+      "status": "pending",
+      "topic": "freeze-dried: полка растёт быстрее повторных заказов",
+      "query": "freeze dried pet food brand growth",
+      "searchUrl": "https://www.linkedin.com/search/results/content/?keywords=freeze%20dried%20pet%20food%20brand%20growth&datePosted=%22past-week%22&sortBy=%22date_posted%22",
+      "comment": "Trial is easy in this category, the second purchase isn't — we see exactly that on Amazon. Does it look the same on shelf, or does retail hide it because you only see sell-through in aggregate?",
+      "max_post_age_days": 7
+    },
+    {
+      "id": 2,
+      "type": "comment",
+      "status": "pending",
+      "topic": "functional treats съедают полку добавок",
+      "query": "functional treats pet supplements category",
+      "searchUrl": "https://www.linkedin.com/search/results/content/?keywords=functional%20treats%20pet%20supplements%20category&datePosted=%22past-week%22&sortBy=%22date_posted%22",
+      "comment": "We sell both treats and supplements, and the treat side moves far more easily. From a shelf point of view, are functional treats taking supplement space, or pulling in buyers who never walked down that aisle?",
+      "max_post_age_days": 7
+    },
+    {
+      "id": 3,
+      "type": "comment",
+      "status": "pending",
+      "topic": "подписки: отток из-за каденции, не из-за цены",
+      "query": "pet subscription churn retention repeat",
+      "searchUrl": "https://www.linkedin.com/search/results/content/?keywords=pet%20subscription%20churn%20retention%20repeat&datePosted=%22past-week%22&sortBy=%22date_posted%22",
+      "comment": "Cadence over price matches what we found, though our problem turned out to be worse: subscriptions showing active for months that were never actually charged. Worth checking the charges happened before blaming churn.",
+      "max_post_age_days": 7
+    },
+    {
+      "id": 4,
+      "type": "comment",
+      "status": "pending",
+      "topic": "тарифы бьют не по цене, а по граммам в упаковке",
+      "query": "pet industry tariffs sourcing cost packaging",
+      "searchUrl": "https://www.linkedin.com/search/results/content/?keywords=pet%20industry%20tariffs%20sourcing%20cost%20packaging&datePosted=%22past-week%22&sortBy=%22date_posted%22",
+      "comment": "We're pricing sourcing options right now, and what surprised me is how fast the conversation moves from price to pack size. Has anyone moved production out of China and actually come out ahead once you count landed cost rather than FOB?",
+      "max_post_age_days": 7
+    },
+    {
+      "id": 5,
+      "type": "comment",
+      "status": "pending",
+      "topic": "вет-канал: доверие остаётся у рекомендации, не у бренда",
+      "query": "veterinary channel pet brand recommendation retail",
+      "searchUrl": "https://www.linkedin.com/search/results/content/?keywords=veterinary%20channel%20pet%20brand%20recommendation%20retail&datePosted=%22past-week%22&sortBy=%22date_posted%22",
+      "comment": "This is the part we deliberately stay out of — we're a supplement brand, not a medical one, and we don't make clinical claims. Is there a way into the vet channel for a brand that won't make them, or is it closed by definition?",
+      "max_post_age_days": 7
+    },
+    {
+      "id": 6,
+      "type": "comment",
+      "status": "pending",
+      "topic": "предел премиумизации — касса, а не опрос",
+      "query": "pet humanization premiumization price willingness",
+      "searchUrl": "https://www.linkedin.com/search/results/content/?keywords=pet%20humanization%20premiumization%20price%20willingness&datePosted=%22past-week%22&sortBy=%22date_posted%22",
+      "comment": "Surveys say people will pay more, receipts say something narrower, and we see that gap in our own data. Where does the ceiling actually sit on shelf right now, and has it moved in the last year?",
+      "max_post_age_days": 7
+    },
+    {
+      "id": 7,
+      "type": "comment",
+      "status": "pending",
+      "topic": "экологичная упаковка: опросы против чеков",
+      "query": "sustainable pet packaging recyclable brand",
+      "searchUrl": "https://www.linkedin.com/search/results/content/?keywords=sustainable%20pet%20packaging%20recyclable%20brand&datePosted=%22past-week%22&sortBy=%22date_posted%22",
+      "comment": "We've looked at recyclable packaging twice and both times the cost didn't survive the math. Has anyone seen sustainable packaging move sell-through, or does it only matter when the buyer asks for it?",
+      "max_post_age_days": 7
+    },
+    {
+      "id": 8,
+      "type": "comment",
+      "status": "pending",
+      "topic": "независимая розница консолидируется и задаёт вопросы жёстче сетей",
+      "query": "independent pet retailer shelf turn rates",
+      "searchUrl": "https://www.linkedin.com/search/results/content/?keywords=independent%20pet%20retailer%20shelf%20turn%20rates&datePosted=%22past-week%22&sortBy=%22date_posted%22",
+      "comment": "Independents were the door we assumed would be easiest to open. If they're now asking harder questions than the chains, what are those questions? I'd rather hear them before the meeting than during it.",
+      "max_post_age_days": 7
+    },
+    {
+      "id": 9,
+      "type": "comment",
+      "status": "pending",
+      "topic": "полка всё ещё построена под собачьего покупателя",
+      "query": "cat category pet retail shelf allocation",
+      "searchUrl": "https://www.linkedin.com/search/results/content/?keywords=cat%20category%20pet%20retail%20shelf%20allocation&datePosted=%22past-week%22&sortBy=%22date_posted%22",
+      "comment": "Cat is the half of our catalogue that gets the least attention from us too, so this stings a bit. Is the allocation actually changing at store level, or is it still a dog-first planogram almost everywhere?",
+      "max_post_age_days": 7
+    },
+    {
+      "id": 10,
+      "type": "comment",
+      "status": "pending",
+      "topic": "новинки умирают на второй покупке, а не на листинге",
+      "query": "pet brand product launch retail velocity",
+      "searchUrl": "https://www.linkedin.com/search/results/content/?keywords=pet%20brand%20product%20launch%20retail%20velocity&datePosted=%22past-week%22&sortBy=%22date_posted%22",
+      "comment": "Getting listed feels like the finish line until you read something like this. What's the realistic window a new item gets to prove velocity before it's pulled — a quarter, two?",
+      "max_post_age_days": 7
+    },
+    {
+      "id": 18,
+      "type": "comment",
+      "status": "pending",
+      "topic": "line review решается до встречи",
+      "query": "line review buyer meeting assortment decision retail",
+      "searchUrl": "https://www.linkedin.com/search/results/content/?keywords=line%20review%20buyer%20meeting%20assortment%20decision%20retail&datePosted=%22past-week%22&sortBy=%22date_posted%22",
+      "comment": "So the meeting confirms a decision rather than makes it. For a brand that isn't in the review yet, what's the useful thing to be doing in the months before — samples, data, or just being known?",
+      "max_post_age_days": 7
+    },
+    {
+      "id": 19,
+      "type": "comment",
+      "status": "pending",
+      "topic": "fill rate дороже промо",
+      "query": "fill rate on time in full supplier scorecard chargeback",
+      "searchUrl": "https://www.linkedin.com/search/results/content/?keywords=fill%20rate%20on%20time%20in%20full%20supplier%20scorecard%20chargeback&datePosted=%22past-week%22&sortBy=%22date_posted%22",
+      "comment": "This is the number I understand least and probably should understand best. What does a brand our size realistically need in place — safety stock, a 3PL, both — before fill rate stops being a risk?",
+      "max_post_age_days": 7
+    },
+    {
+      "id": 20,
+      "type": "comment",
+      "status": "pending",
+      "topic": "trade spend: подъём или сдвиг спроса",
+      "query": "trade promotion spend retail calendar baseline margin",
+      "searchUrl": "https://www.linkedin.com/search/results/content/?keywords=trade%20promotion%20spend%20retail%20calendar%20baseline%20margin&datePosted=%22past-week%22&sortBy=%22date_posted%22",
+      "comment": "Pulling demand forward versus creating it is the same question we have with Amazon deals, just with more zeros attached. How do you tell the two apart in the data before the promo ends rather than after?",
+      "max_post_age_days": 7
+    },
+    {
+      "id": 21,
+      "type": "comment",
+      "status": "pending",
+      "topic": "private label забирает середину полки",
+      "query": "private label store brand category share pet retail",
+      "searchUrl": "https://www.linkedin.com/search/results/content/?keywords=private%20label%20store%20brand%20category%20share%20pet%20retail&datePosted=%22past-week%22&sortBy=%22date_posted%22",
+      "comment": "If private label owns the middle, a small brand either competes on a price it can't win or has a real reason to exist. What does that reason look like from your side — format, ingredient, something else?",
+      "max_post_age_days": 7
+    },
+    {
+      "id": 22,
+      "type": "comment",
+      "status": "pending",
+      "topic": "autoship: правда в третьем заказе",
+      "query": "autoship subscription repeat purchase rate ecommerce pet",
+      "searchUrl": "https://www.linkedin.com/search/results/content/?keywords=autoship%20subscription%20repeat%20purchase%20rate%20ecommerce%20pet&datePosted=%22past-week%22&sortBy=%22date_posted%22",
+      "comment": "Third order as the real signal matches ours: the first two tell you almost nothing. We also found subscriptions sitting active with no charges behind them, which flattered every retention number we had.",
+      "max_post_age_days": 7
+    },
+    {
+      "id": 23,
+      "type": "comment",
+      "status": "pending",
+      "topic": "производственные мощности — скрытое ограничение роста",
+      "query": "contract manufacturer co manufacturing capacity production line",
+      "searchUrl": "https://www.linkedin.com/search/results/content/?keywords=contract%20manufacturer%20co%20manufacturing%20capacity%20production%20line&datePosted=%22past-week%22&sortBy=%22date_posted%22",
+      "comment": "This is the constraint we hit first, well before demand. How early are brands expected to have capacity proven when a retailer asks — contracts in place, or is a credible plan enough at the first meeting?",
+      "max_post_age_days": 7
+    },
+    {
+      "id": 24,
+      "type": "comment",
+      "status": "pending",
+      "topic": "lead time — коммерческое число, не логистическое",
+      "query": "freight logistics warehouse 3PL lead time inbound retail",
+      "searchUrl": "https://www.linkedin.com/search/results/content/?keywords=freight%20logistics%20warehouse%203PL%20lead%20time%20inbound%20retail&datePosted=%22past-week%22&sortBy=%22date_posted%22",
+      "comment": "Treating lead time as a logistics detail was our mistake — it comes up in every commercial conversation instead. What lead time do buyers actually expect from a small supplier before it becomes a problem?",
+      "max_post_age_days": 7
+    },
+    {
+      "id": 25,
+      "type": "comment",
+      "status": "pending",
+      "topic": "брокер и свои люди — разные задачи",
+      "query": "sales broker rep group in house team retail accounts pet",
+      "searchUrl": "https://www.linkedin.com/search/results/content/?keywords=sales%20broker%20rep%20group%20in%20house%20team%20retail%20accounts%20pet&datePosted=%22past-week%22&sortBy=%22date_posted%22",
+      "comment": "We have neither yet, so this is a genuine question rather than a take. When does a broker start making sense — a number of accounts, a region, or only after the first real listing?",
+      "max_post_age_days": 7
+    },
+    {
+      "id": 26,
+      "type": "comment",
+      "status": "pending",
+      "topic": "календарь ресетов — настоящий дедлайн категории",
+      "query": "spring reset fall reset shelf schedule retailer planogram",
+      "searchUrl": "https://www.linkedin.com/search/results/content/?keywords=spring%20reset%20fall%20reset%20shelf%20schedule%20retailer%20planogram&datePosted=%22past-week%22&sortBy=%22date_posted%22",
+      "comment": "Nobody publishes this calendar anywhere a new brand can find it. Is there a rough rule of thumb for how far ahead of a spring or fall reset you should already be in conversation?",
+      "max_post_age_days": 7
+    },
+    {
+      "id": 27,
+      "type": "comment",
+      "status": "pending",
+      "topic": "Petfood Forum: там видно себестоимость категории",
+      "query": "petfood forum manufacturing ingredients sourcing conference",
+      "searchUrl": "https://www.linkedin.com/search/results/content/?keywords=petfood%20forum%20manufacturing%20ingredients%20sourcing%20conference&datePosted=%22past-week%22&sortBy=%22date_posted%22",
+      "comment": "Conferences where the manufacturing side talks have taught me more about our own cost structure than anything on the commercial side. What's worth paying attention to there if you're a brand rather than a manufacturer?",
+      "max_post_age_days": 7
+    },
+    {
+      "id": 28,
+      "type": "comment",
+      "status": "pending",
+      "topic": "конфликт каналов — про то, кто объясняет цену",
+      "query": "MAP policy pricing channel conflict amazon retail pet",
+      "searchUrl": "https://www.linkedin.com/search/results/content/?keywords=MAP%20policy%20pricing%20channel%20conflict%20amazon%20retail%20pet&datePosted=%22past-week%22&sortBy=%22date_posted%22",
+      "comment": "We're DTC and Amazon first, so this is the objection I expect in every retail conversation. What actually satisfies a buyer here — a MAP policy on paper, different pack sizes, or just consistent pricing?",
+      "max_post_age_days": 7
+    }
+  ]
+}
